@@ -32,6 +32,13 @@ public class AboutuspageElement_Trustpilot_Functionality extends TestBaseClass {
 		 AboutusPOMClass ab=new AboutusPOMClass(driver);
 		 ab.clickontrustpiolet();
 		 Thread.sleep(2000);
+		 
+		 //switch the window 
+		 
+		 
+		 
+		 
+		 
 		 String expectedTitle1 = "Neckermann Travel Reviews | Read Customer Service Reviews of neckermanntravel.co.uk";   	
 		 String actualTitle1 = driver.getTitle();
 		 Assert.assertEquals(actualTitle1, expectedTitle1);
