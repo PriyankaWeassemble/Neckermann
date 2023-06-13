@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-13T13:02:57 IST" name="Suite" finished-at="2023-06-13T13:03:15 IST" duration-ms="17774">
+    <groups>
+    </groups>
+    <test started-at="2023-06-13T13:02:57 IST" name="Test" finished-at="2023-06-13T13:03:15 IST" duration-ms="17774">
+      <class name="com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Header">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Header@6e0f5f7f]" started-at="2023-06-13T13:02:57 IST" name="setUp" finished-at="2023-06-13T13:03:02 IST" duration-ms="5104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="aboutusfunctionality()[pri:0, instance:com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Header@6e0f5f7f]" started-at="2023-06-13T13:03:02 IST" name="aboutusfunctionality" finished-at="2023-06-13T13:03:03 IST" duration-ms="963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutusfunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Header@6e0f5f7f]" started-at="2023-06-13T13:03:03 IST" name="tearDown" finished-at="2023-06-13T13:03:03 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Header -->
+      <class name="com.Neckermann.TestClass.AboutuspageElement_contactus_Functionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.AboutuspageElement_contactus_Functionality@3527942a]" started-at="2023-06-13T13:03:03 IST" name="setUp" finished-at="2023-06-13T13:03:07 IST" duration-ms="3390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AboutuspageElement_contactus_Functionality1()[pri:0, instance:com.Neckermann.TestClass.AboutuspageElement_contactus_Functionality@3527942a]" started-at="2023-06-13T13:03:07 IST" name="AboutuspageElement_contactus_Functionality1" finished-at="2023-06-13T13:03:10 IST" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutuspageElement_contactus_Functionality1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.AboutuspageElement_contactus_Functionality@3527942a]" started-at="2023-06-13T13:03:10 IST" name="tearDown" finished-at="2023-06-13T13:03:10 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Neckermann.TestClass.AboutuspageElement_contactus_Functionality -->
+      <class name="com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Footer">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Footer@1ed6388a]" started-at="2023-06-13T13:03:10 IST" name="setUp" finished-at="2023-06-13T13:03:14 IST" duration-ms="3537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AboutUSFunctionality_HomePage_Footer1()[pri:0, instance:com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Footer@1ed6388a]" started-at="2023-06-13T13:03:14 IST" name="AboutUSFunctionality_HomePage_Footer1" finished-at="2023-06-13T13:03:15 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUSFunctionality_HomePage_Footer1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Footer@1ed6388a]" started-at="2023-06-13T13:03:15 IST" name="tearDown" finished-at="2023-06-13T13:03:15 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Footer -->
+      <class name="com.Neckermann.TestClass.AboutuspageElement_nextbackarrow_Functionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.AboutuspageElement_nextbackarrow_Functionality@942a29c]" started-at="2023-06-13T13:03:06 IST" name="setUp" finished-at="2023-06-13T13:03:09 IST" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AboutuspageElement_nextbackarrow_Functionality1()[pri:0, instance:com.Neckermann.TestClass.AboutuspageElement_nextbackarrow_Functionality@942a29c]" started-at="2023-06-13T13:03:09 IST" name="AboutuspageElement_nextbackarrow_Functionality1" finished-at="2023-06-13T13:03:13 IST" duration-ms="3965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutuspageElement_nextbackarrow_Functionality1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.AboutuspageElement_nextbackarrow_Functionality@942a29c]" started-at="2023-06-13T13:03:13 IST" name="tearDown" finished-at="2023-06-13T13:03:14 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Neckermann.TestClass.AboutuspageElement_nextbackarrow_Functionality -->
+      <class name="com.Neckermann.TestClass.AboutuspageElement_Trustpilot_Functionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.AboutuspageElement_Trustpilot_Functionality@3f6f6701]" started-at="2023-06-13T13:02:57 IST" name="setUp" finished-at="2023-06-13T13:03:02 IST" duration-ms="4760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AboutuspageElement_Trustpilot_Functionality1()[pri:0, instance:com.Neckermann.TestClass.AboutuspageElement_Trustpilot_Functionality@3f6f6701]" started-at="2023-06-13T13:03:02 IST" name="AboutuspageElement_Trustpilot_Functionality1" finished-at="2023-06-13T13:03:06 IST" duration-ms="4035" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Neckermann Travel Reviews | Read Customer Service Reviews of neckermanntravel.co.uk] but found [About Us Neckermanntravel]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Neckermann Travel Reviews | Read Customer Service Reviews of neckermanntravel.co.uk] but found [About Us Neckermanntravel]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.Neckermann.TestClass.AboutuspageElement_Trustpilot_Functionality.AboutuspageElement_Trustpilot_Functionality1(AboutuspageElement_Trustpilot_Functionality.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutuspageElement_Trustpilot_Functionality1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.AboutuspageElement_Trustpilot_Functionality@3f6f6701]" started-at="2023-06-13T13:03:06 IST" name="tearDown" finished-at="2023-06-13T13:03:06 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Neckermann.TestClass.AboutuspageElement_Trustpilot_Functionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
