@@ -15,16 +15,11 @@
         <class name="com.Neckermann.TestClass.Neckermann_Logo_Functionality"/>
         <class name="com.Neckermann.TestClass.FlashDealsVideo_functionality"/>
         <class name="com.Neckermann.TestClass.HamburgerMenu_Functionality"/>
-        
-        
-        <class name="com.Neckermann.TestClass.ATOLProtectedFunctionality"/>
-      
-        
-      
-        
-        <class name="com.Neckermann.TestClass.Destinations_HomePage_functioanlity"/>
+            
+         <class name="com.Neckermann.TestClass.Destinations_HomePage_functioanlity"/>
         -->
-        
+        <class name="com.Neckermann.TestClass.ATOLProtectedFunctionality"/>
+       
         
     </classes>
   </test> <!-- Test -->

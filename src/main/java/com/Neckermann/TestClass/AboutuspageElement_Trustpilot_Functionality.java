@@ -1,6 +1,8 @@
 package com.Neckermann.TestClass;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
@@ -35,9 +37,8 @@ public class AboutuspageElement_Trustpilot_Functionality extends TestBaseClass {
 		 
 		 //switch the window 
 		 
-		 
-		 
-		 
+		 List<String> allpageaddress= new ArrayList<String>(driver.getWindowHandles());
+		 driver.switchTo().window(allpageaddress.get(1));
 		 
 		 String expectedTitle1 = "Neckermann Travel Reviews | Read Customer Service Reviews of neckermanntravel.co.uk";   	
 		 String actualTitle1 = driver.getTitle();

@@ -2,18 +2,17 @@ package com.Neckermann.TestClass;
 
 import java.io.IOException;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.Neckerman.UtilityClass.ScreenshotClass;
-import com.Neckermann.POMClasses.AtolPOMClass;
+import com.Neckermann.POMClasses.AboutusPOMClass;
 import com.Neckermann.POMClasses.HomePOMClass;
 
-public class ATOLProtectedFunctionality extends TestBaseClass{
-	
+public class Atolprotecetdfunctionality_visiblityofNewsletter_Footer extends TestBaseClass{
+
 	@Test
-	public void atolprotecetdfunctionality() throws IOException, InterruptedException
+	public void Atolprotecetdfunctionality_visiblityofNewsletter_Footer1() throws IOException
 	{
 		   String expectedTitle = "Neckermann Travel | Home Page";   	
 		   String actualTitle = driver.getTitle();
@@ -30,22 +29,26 @@ public class ATOLProtectedFunctionality extends TestBaseClass{
 		   String actualTitle1 = driver.getTitle();
 		   Assert.assertEquals(actualTitle1, expectedTitle1);
            log.info("click on ATOL Protected ");
-           
-           String expectedTitle2 = "Book with Confidence - Neckermanntravel";  
-           AtolPOMClass ac=new AtolPOMClass(driver);  
-		   String actualTitle2 = ac.headerelementtitlefetch();
-		   Assert.assertEquals(actualTitle2, expectedTitle2);
-           log.info("Heading is correct");
-                    
-           JavascriptExecutor js=(JavascriptExecutor)driver;
-           js.executeScript("window.scroll(0,600)");
-           Thread.sleep(3000);
-           ac.clickAllPopup();
-           log.info("all pop up's are clicked");
-           
-             
-           
-           
-           
+		
+		AboutusPOMClass ab=new AboutusPOMClass(driver);
+		boolean expectedTitle2=ab.visiblityofnewsletter();
+		boolean actualTitle2=true;
+		Assert.assertEquals(actualTitle2, expectedTitle2);
+		log.info("newsletter is visible on the atol protected page");
+		
+		boolean expectedTitle3=ab.visiblityoffooteraboutus();
+		boolean actualTitle3=true;
+		Assert.assertEquals(actualTitle3, expectedTitle3);
+		log.info("footer is visible on the atol protected page");
+		
+		
+		  
 	}
+	
+	
+	
+	
+	
+	
+	
 }

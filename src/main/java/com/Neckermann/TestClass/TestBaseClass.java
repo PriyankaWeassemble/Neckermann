@@ -19,8 +19,6 @@ import com.Neckermann.POMClasses.HomePOMClass;
 
 public class TestBaseClass {
 	
-
-	
 	
 	   Logger log= Logger.getLogger("Neckermann");
 	   WebDriver driver;

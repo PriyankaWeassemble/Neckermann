@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="com.Neckermann.TestClass.AboutuspageElement_Trustpilot_Functionality">
+      <class name="com.Neckermann.TestClass.Neckermann_Logo_Functionality">
         <methods>
           <include name="setUp"/>
-          <include name="AboutuspageElement_Trustpilot_Functionality1"/>
+          <include name="Neckermann_Logo_Functionality"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Neckermann.TestClass.AboutuspageElement_Trustpilot_Functionality -->
+      </class> <!-- com.Neckermann.TestClass.Neckermann_Logo_Functionality -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

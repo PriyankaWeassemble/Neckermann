@@ -2,16 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 
-<suite name="Suite">
+<suite name="aboutus">
   <test thread-count="2" parallel="classes" name="Test">
     <classes>
     
-       <class name="com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Header"/>
+        <class name="com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Header"/>
         <class name="com.Neckermann.TestClass.AboutuspageElement_Trustpilot_Functionality"/>
         <class name="com.Neckermann.TestClass.AboutuspageElement_contactus_Functionality"/>
         <class name="com.Neckermann.TestClass.AboutuspageElement_nextbackarrow_Functionality"/>
         <class name="com.Neckermann.TestClass.AboutUSFunctionality_HomePage_Footer"/>
-     
+        <class name="com.Neckermann.TestClass.Aboutusfunctionality_visiblityofNewsletter_Footer"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

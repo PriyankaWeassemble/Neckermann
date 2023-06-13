@@ -16,12 +16,12 @@ public class ScreenshotClass {
 		public static void takeScreenshot(WebDriver driver,String name) throws IOException
 		{
 			Date d = new Date();
-			DateFormat d1 = new SimpleDateFormat("MM-dd-yy & HH-mm-ss");
+			DateFormat d1 = new SimpleDateFormat("yy-mm-dd & HH-mm-ss");//MM-dd-yy-->correct format
 			String date = d1.format(d);
 			
 			TakesScreenshot ts= (TakesScreenshot)driver;
 			File source = ts.getScreenshotAs(OutputType.FILE);
-			File destination = new File("./Neckermann_ScreenshotFolder\\Neckermann"+date+name+".jpg");	
+			File destination = new File("./Neckermann_ScreenshotFolder\\"+date+name+".jpg");	
 			FileHandler.copy(source, destination);
 		}
 

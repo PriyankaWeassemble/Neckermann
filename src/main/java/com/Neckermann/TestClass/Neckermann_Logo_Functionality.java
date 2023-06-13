@@ -1,13 +1,16 @@
 package com.Neckermann.TestClass;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.Neckerman.UtilityClass.ScreenshotClass;
 import com.Neckermann.POMClasses.HomePOMClass;
 
 public class Neckermann_Logo_Functionality extends TestBaseClass {
 	@Test
-	public void Neckermann_Logo_Functionality() throws InterruptedException
+	public void Neckermann_Logo_Functionality() throws InterruptedException, IOException
 	{
 		String expectedTitle = "Neckermann Travel | Home Page";   	
 		   String actualTitle = driver.getTitle();
@@ -25,7 +28,7 @@ public class Neckermann_Logo_Functionality extends TestBaseClass {
 		   String actualTitle1 = driver.getTitle();
 		   Assert.assertEquals(actualTitle1, expectedTitle1);
 	       log.info("logo from the header is clicked ");
-	       
+	       ScreenshotClass.takeScreenshot(driver, "afterclickinglogocomes");
 	   
 		
 	}
