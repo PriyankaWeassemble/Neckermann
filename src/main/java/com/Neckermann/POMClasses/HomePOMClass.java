@@ -18,7 +18,7 @@ public class HomePOMClass {
 		PageFactory.initElements(driver, this);
 		
 	}
-	//ATOL tab
+	//******************ATOL tab
 	@FindBy(xpath="(//a[text()='ATOL Protected'])[1]")
 	private WebElement ATOLprotected;
 	
@@ -27,7 +27,7 @@ public class HomePOMClass {
 		ATOLprotected.click();
 	}
 
-	//Cookie accept
+	//******************Cookie accept
 	@FindBy(xpath="//button[@class='cookies_btn2__g59MH']")
 	private WebElement cookieelement;
 	
@@ -36,7 +36,7 @@ public class HomePOMClass {
 		cookieelement.click();
 	}
 	
-	//aboutus tab
+	//******************aboutus tab
 	@FindBy(xpath="//a[text()='About Us']")
 	private WebElement aboutus;
 	
@@ -45,7 +45,7 @@ public class HomePOMClass {
 		aboutus.click();
 	}
 
-	//neckermannlogo
+	//******************neckermannlogo
 	@FindBy(xpath="//a[@class='header_brandGroupWrap___jKO_']")
 	private WebElement logofromheader;
 	
@@ -54,7 +54,7 @@ public class HomePOMClass {
 		logofromheader.click();
 	}
 	
-	//sign in tab
+	//******************sign in tab
 	@FindBy(xpath="//a[text()='Sign In']")
 	private WebElement signinbutton;
 	
@@ -64,7 +64,7 @@ public class HomePOMClass {
 	}
 	
 	
-	//Hamburger menu
+	//******************Hamburger menu******************//
 	@FindBy(xpath="//button[@class='header_navHamburger__dXcUC']")
 	private WebElement Hamburgermenu;
 	
@@ -157,7 +157,7 @@ public class HomePOMClass {
 				}
 		}
 		
-		
+		//******************Flash deals******************//
 		//first video 
 		@FindBy(xpath="//div[@class='flashDeals_img_container__TIAYh flashDeals_img1__4kL_W']")
 		private WebElement firstvideo;
@@ -207,7 +207,7 @@ public class HomePOMClass {
 				}
 		}
 		
-		//click on see all button from blog
+		//******************click on see all button from blog******************
 		@FindBy(xpath="(//a[text()='see all'])[1]")
 		private WebElement SeeAllbutton;
 		
@@ -231,80 +231,7 @@ public class HomePOMClass {
 		
 		
 		
-		//logo on the footer
-		@FindBy(xpath="//a[@class='footer_brand__vFXFx']")
-		private WebElement logoonthefooter;
-		
-		public void clickonlogoonthefooter()
-		{
-			logoonthefooter.click();
-		}
-		
-		//Atol protected from footer
-		@FindBy(xpath="(//a[text()='ATOL Protected'])[2]")
-		private WebElement Atolprotectedfromfooter;
-		
-		public void clickonAtolprotectedfromfooter()
-		{
-			Atolprotectedfromfooter.click();
-		}
-		
-		//about us from footer
-		@FindBy(xpath="//a[text()='About us']")
-		private WebElement aboutusfromfooter;
-		
-		public void clickonaboutusfromfooter()
-		{
-			aboutusfromfooter.click();
-		}
-		
-		//contact us from footer
-		@FindBy(xpath="//a[text()='Contact us']")
-		private WebElement contactusfromfooter;
-		
-		public void clickoncontactusfromfooter()
-		{
-			contactusfromfooter.click();
-		}
-		
-		//bookingconditions from footer
-		@FindBy(xpath="//a[text()='Booking Conditions']")
-		private WebElement bookingconditionsfromfooter;
-		
-		public void clickonbookingconditionsfromfooter()
-		{
-			bookingconditionsfromfooter.click();
-		}
-		
-		//privacypolicy from footer
-		@FindBy(xpath="//a[text()='Privacy Policy']")
-		private WebElement privacypolicyfromfooter;
-		
-		public void clickonprivacypolicyfromfooter()
-		{
-			privacypolicyfromfooter.click();
-		}
-		
-		//terms of use from footer
-		@FindBy(xpath="//a[text()='Terms of use']")
-		private WebElement termsofusefromfooter;
-		
-		public void clickontermsofusefromfooter()
-		{
-			termsofusefromfooter.click();
-		}
-		
-		//cookie policy from footer
-		@FindBy(xpath="//a[text()='Cookie Policy']")
-		private WebElement cookiepolicyfromfooter;
-		
-		public void clickoncookiepolicyfromfooter()
-		{
-			cookiepolicyfromfooter.click();
-		}
-		
-		
-		//click on the Videos
+		//******************click on the Videos******************//
 		@FindBy(xpath="//video[@width='1000']")
 		private WebElement videoclick1;
 		
@@ -322,8 +249,7 @@ public class HomePOMClass {
 		}
 		
 		
-		//Home page destinations click 
-		//
+		//******************Home page destinations click ******************//
 		
 		//select Destinations(Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands)
 				@FindBy(xpath="//div[@class='topDestinations_section_gallery__w61_w']/a[@class='topDestinations_img_container__qGSGp topDestinations_img__WUIPG']")
@@ -341,7 +267,7 @@ public class HomePOMClass {
 						}
 				}
 		
-				//Trust card from home page
+				//*****************Trust card from home page***********************//
 				@FindBy(xpath="//section[@class='trustCards_section__TC2zA']")
 				private WebElement trustcard_homepage;
 				
@@ -353,7 +279,8 @@ public class HomePOMClass {
 				
 				
 			
-				//Review on the home page
+				//*****************Review on the home page************************//
+				
 				@FindBy(xpath="//section[@class='ourReviews_section_container__HHIDf ourReviews_our_reviews__93BUw']")
 				private WebElement Reviewcomponent_homepage;
 		        
@@ -390,6 +317,9 @@ public class HomePOMClass {
 		    		previousarrow_review_homepage.click();
 		    	}
 				
+		    	
+		    	//*****************Newsletter***********************//
+		    	
 				//Newsletter component
 	            @FindBy(xpath="//section[@class='newsletter_section_container__PgpRE newsletter_travel_journey_section__QSg4q']")
 				private WebElement Newsletter_Component;
@@ -483,7 +413,124 @@ public class HomePOMClass {
 	                return d;
 					
 				}
-			
+				
+			//************FOOTER***********************//
+
+				//logo container
+				@FindBy(xpath="//footer[@class='footer_section_container__PyfBS']")
+				private WebElement footer_element_container;
+				public boolean visiblityoffooter_element_container()
+				{
+					
+					boolean d=footer_element_container.isDisplayed();
+	                return d;
+					
+				}
+				
+				//logo on the footer
+				@FindBy(xpath="//a[@class='footer_brand__vFXFx']/img")
+				private WebElement logoonthefooter;
+				
+				public boolean visiblityoflogoonthefooter()
+				{
+					
+					boolean d=logoonthefooter.isDisplayed();
+	                return d;
+					
+				}
+				
+				
+				public void clickonlogoonthefooter()
+				{
+					logoonthefooter.click();
+				}
+				
+				//address from the footer
+				
+				@FindBy(xpath="//div[@class='footer_left_section__2arnh']/div")
+				private WebElement addressfromfooter;
+				
+				public String getaddressfromfooter()
+				{
+					
+					String d=addressfromfooter.getText();
+	                return d;
+					
+				}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				//Atol protected from footer
+				@FindBy(xpath="(//a[text()='ATOL Protected'])[2]")
+				private WebElement Atolprotectedfromfooter;
+				
+				public void clickonAtolprotectedfromfooter()
+				{
+					Atolprotectedfromfooter.click();
+				}
+				
+				//about us from footer
+				@FindBy(xpath="//a[text()='About us']")
+				private WebElement aboutusfromfooter;
+				
+				public void clickonaboutusfromfooter()
+				{
+					aboutusfromfooter.click();
+				}
+				
+				//contact us from footer
+				@FindBy(xpath="//a[text()='Contact us']")
+				private WebElement contactusfromfooter;
+				
+				public void clickoncontactusfromfooter()
+				{
+					contactusfromfooter.click();
+				}
+				
+				//bookingconditions from footer
+				@FindBy(xpath="//a[text()='Booking Conditions']")
+				private WebElement bookingconditionsfromfooter;
+				
+				public void clickonbookingconditionsfromfooter()
+				{
+					bookingconditionsfromfooter.click();
+				}
+				
+				//privacypolicy from footer
+				@FindBy(xpath="//a[text()='Privacy Policy']")
+				private WebElement privacypolicyfromfooter;
+				
+				public void clickonprivacypolicyfromfooter()
+				{
+					privacypolicyfromfooter.click();
+				}
+				
+				//terms of use from footer
+				@FindBy(xpath="//a[text()='Terms of use']")
+				private WebElement termsofusefromfooter;
+				
+				public void clickontermsofusefromfooter()
+				{
+					termsofusefromfooter.click();
+				}
+				
+				//cookie policy from footer
+				@FindBy(xpath="//a[text()='Cookie Policy']")
+				private WebElement cookiepolicyfromfooter;
+				
+				public void clickoncookiepolicyfromfooter()
+				{
+					cookiepolicyfromfooter.click();
+				}
 				
 				
 		
