@@ -142,7 +142,7 @@ public class HomePOMClass {
 		
 		
 		//Legal Submenu(Booking Conditions,Privacy Policy,Cookie Policy,Terms Of Use)
-		@FindBy(xpath="//div[@class='header_subMenuContainer__RUh3T']/div")
+		@FindBy(xpath="//div[@class='header_subMenuContainer__RUh3T']/div/a")
 		private List<WebElement> legalsubmenuselection;
 		
 		public void clickonlegalsubmenuselection(String a)
@@ -229,31 +229,7 @@ public class HomePOMClass {
 				}
 		}
 		
-		//Click on the newsletter email textbox
-		@FindBy(xpath="//input[@name='email']")
-		private WebElement emailid;
 		
-		public void enteremailidinnewsletter()
-		{
-			emailid.sendKeys("dhcdcd@gmail.com");
-		}
-		
-		@FindBy(xpath="//button[text()='Sign Up']")
-		private WebElement signup;
-		
-		public void clcikonsignup()
-		{
-			signup.click();
-		}
-		
-		//click on the trustpilot
-		@FindBy(xpath="//a[@class='ourReviews_mid_section_bottom__JTB_G']")
-		private WebElement trustpilot;
-		
-		public void clickontrustpilot()
-		{
-			trustpilot.click();
-		}
 		
 		//logo on the footer
 		@FindBy(xpath="//a[@class='footer_brand__vFXFx']")
@@ -365,13 +341,151 @@ public class HomePOMClass {
 						}
 				}
 		
-		
-		
-		
-		
-		
-		
-		
+				//Trust card from home page
+				@FindBy(xpath="//section[@class='trustCards_section__TC2zA']")
+				private WebElement trustcard_homepage;
+				
+				public boolean visiblityoftrustcard_homepage()
+				{
+					boolean y=trustcard_homepage.isDisplayed();
+					return y;
+				}
+				
+				
+			
+				//Review on the home page
+				@FindBy(xpath="//section[@class='ourReviews_section_container__HHIDf ourReviews_our_reviews__93BUw']")
+				private WebElement Reviewcomponent_homepage;
+		        
+		        public boolean visiblityofReviewcomponent_homepage()
+		        {
+		                boolean b=Reviewcomponent_homepage.isDisplayed();
+		                return b;
+		        }
+				
+		        @FindBy(xpath="//a[@class='ourReviews_mid_section_bottom__JTB_G']")
+		    	private WebElement trustpiolet_homepage;
+		    	
+		    	public void clickontrustpiolet_homepage()
+		    	{
+		    		trustpiolet_homepage.click();
+		    	}
+		    	
+		    	//back and front arrow on the review
+		    	@FindBy(xpath="(//button[text()='Next'])[5]")
+		    	private WebElement nextarrow_review_homepage;
+		    	
+		    	public void clickonnextarrow_review_homepage()
+		    	{
+		    		nextarrow_review_homepage.click();
+		    	}
+		    	
+		    
+		    	
+		    	@FindBy(xpath="(//button[text()='Previous'])[5]")
+		    	private WebElement previousarrow_review_homepage;
+		    	
+		    	public void clickonpreviousarrow_review_homepage()
+		    	{
+		    		previousarrow_review_homepage.click();
+		    	}
+				
+				//Newsletter component
+	            @FindBy(xpath="//section[@class='newsletter_section_container__PgpRE newsletter_travel_journey_section__QSg4q']")
+				private WebElement Newsletter_Component;
+				
+	            public boolean visiblityofNewsletter_Component_homepage()
+		        {
+		                boolean b=Newsletter_Component.isDisplayed();
+		                return b;
+		        }
+				
+				
+				//Click on the newsletter email textbox
+				@FindBy(xpath="//input[@name='email']")
+				private WebElement emailidin_newsletter;
+				
+				public void enteremailidinnewsletter(String a)
+				{
+					emailidin_newsletter.sendKeys(a);
+				}
+				//sign up
+				@FindBy(xpath="//button[text()='Sign Up']")
+				private WebElement signup_newsletter;
+				
+				public void clcikonsignup_newsletter()
+				{
+					signup_newsletter.click();
+				}
+			
+				
+				
+		    //Success message toast element
+								
+				@FindBy(xpath="//div[@class='Toastify__toast-container Toastify__toast-container--bottom-center']/div[@class='Toastify__toast Toastify__toast-theme--light Toastify__toast--success Toastify__toast--close-on-click']")
+				private WebElement Toast_for_successmessage;
+				
+				public String getmessagefromthetoast()
+				{
+					String c=Toast_for_successmessage.getText();
+					return c;
+					
+				}
+				
+				//Success message toast is visible
+					
+				public boolean visiblityoftoastsuccessmessage()
+				{
+					
+					boolean b=Toast_for_successmessage.isDisplayed();
+	                return b;
+					
+				}
+				
+				//error message toast element
+				@FindBy(xpath="//div[@class='Toastify__toast-container Toastify__toast-container--bottom-center']/div[@class='Toastify__toast Toastify__toast-theme--light Toastify__toast--error Toastify__toast--close-on-click']")
+				private WebElement Toast_for_errorssmessage;
+				
+				public String geterrormessagefromthetoast()
+				{
+					String c=Toast_for_errorssmessage.getText();
+					return c;
+					
+				}
+				
+				//Success message toast is visible
+					
+				public boolean visiblityofToast_for_errorssmessage()
+				{
+					
+					boolean d=Toast_for_errorssmessage.isDisplayed();
+	                return d;
+					
+				}
+				//valid email error message 
+				
+				@FindBy(xpath="//div[text()='Email must be a valid email']")
+				private WebElement valid_email_error_message;
+				public boolean visiblityofvalid_email_error_message()
+				{
+					
+					boolean d=valid_email_error_message.isDisplayed();
+	                return d;
+					
+				}
+				
+				@FindBy(xpath="	//div[text()='Email is required']")
+				private WebElement emailisrequired_error_message;
+				public boolean visiblityofemailisrequired_error_message()
+				{
+					
+					boolean d=emailisrequired_error_message.isDisplayed();
+	                return d;
+					
+				}
+			
+				
+				
 		
 		
 		

@@ -28,7 +28,7 @@ public class Neckermann_Logo_Functionality extends TestBaseClass {
 		   String actualTitle1 = driver.getTitle();
 		   Assert.assertEquals(actualTitle1, expectedTitle1);
 	       log.info("logo from the header is clicked ");
-	       ScreenshotClass.takeScreenshot(driver, "afterclickinglogocomes");
+//	       ScreenshotClass.takeScreenshot(driver, "afterclickinglogocomes");
 	   
 		
 	}
