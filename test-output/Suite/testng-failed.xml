@@ -3,13 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="com.Neckermann.TestClass.Newsletter_Homepage_Negativetestcase3_Functionality">
+      <class name="com.Neckermann.TestClass.Footer__Functionality">
         <methods>
           <include name="setUp"/>
-          <include name="Newsletter_Homepage_Negativetestcase3_Functionality1"/>
+          <include name="Footer_SocialMedia_Facebook_Functionality"/>
+          <include name="Footer_SocialMedia_Ticktok_Functionality"/>
+          <include name="Footer_SocialMedia_Instagram_Functionality"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Neckermann.TestClass.Newsletter_Homepage_Negativetestcase3_Functionality -->
+      </class> <!-- com.Neckermann.TestClass.Footer__Functionality -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

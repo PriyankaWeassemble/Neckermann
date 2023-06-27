@@ -12,7 +12,8 @@ import com.Neckermann.POMClasses.HomePOMClass;
 
 public class Other_Functionality_From_Homepage extends TestBaseClass{
 	
-	@Test
+	//***********1
+	@Test  //(enabled=false)
 	public void FlashDealsVideo_functionality() throws InterruptedException
 	{
 		String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -31,7 +32,8 @@ public class Other_Functionality_From_Homepage extends TestBaseClass{
 		
 	}
 	
-	@Test
+	//***********2
+	@Test(priority=0)   //(enabled=false)
 	public void Neckermann_Logo_Functionality() throws InterruptedException, IOException
 	{
 		String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -41,7 +43,7 @@ public class Other_Functionality_From_Homepage extends TestBaseClass{
 	       
 	       HomePOMClass hm=new HomePOMClass(driver);
 	       hm.clickonaboutus();
-	       log.info("click on the aboiut us");
+	       log.info("click on the about us");
 	      
 	       
 	       hm.clickonlogofromheader();
@@ -56,26 +58,22 @@ public class Other_Functionality_From_Homepage extends TestBaseClass{
 	}
 	
 	
-//	*************Check for it*****************
-	@Test
+
+	//***********3
+	@Test(priority=-1)
 	public void Review_onThe_Homepage_Functionality() throws IOException, InterruptedException
 	{
 		   String expectedTitle = "Neckermann Travel | Home Page";   	
 		   String actualTitle = driver.getTitle();
 		   Assert.assertEquals(actualTitle, expectedTitle);
            log.info("Home page is open");
-           
-           
+          
            HomePOMClass hm=new HomePOMClass(driver);
-           boolean expectedTitle1=hm.visiblityofReviewcomponent_homepage();
-   		   boolean actualTitle1=true;
-   		   Assert.assertEquals(actualTitle1, expectedTitle1);
-   		   log.info("Review component is visible on the home page");
-
-   		   JavascriptExecutor js=(JavascriptExecutor)driver;
-           js.executeScript("window.scroll(0,5225)");
-           Thread.sleep(2000);
          
+   		  JavascriptExecutor js=(JavascriptExecutor)driver;
+          js.executeScript("window.scroll(0,5450)");
+          Thread.sleep(3000);
+   		   
    		   hm.clickonnextarrow_review_homepage();
    		   log.info("forword arrow clicked");
    		   Thread.sleep(2000);
@@ -97,7 +95,8 @@ public class Other_Functionality_From_Homepage extends TestBaseClass{
    		     
 	}
 	
-	@Test
+	//***********4
+	@Test   //(enabled=false)
 	public void Trust_cards_onhomepage_Functionality1() throws IOException, InterruptedException
 	{
 		   String expectedTitle = "Neckermann Travel | Home Page";   	

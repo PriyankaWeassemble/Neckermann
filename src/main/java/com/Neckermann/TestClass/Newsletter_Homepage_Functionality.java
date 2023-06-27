@@ -8,6 +8,7 @@ import com.Neckermann.POMClasses.HomePOMClass;
 
 public class Newsletter_Homepage_Functionality extends TestBaseClass{
 	
+	//***********1
 	@Test
 	public void Newsletter_Homepage_Functionality1() throws InterruptedException
 	{
@@ -39,12 +40,10 @@ public class Newsletter_Homepage_Functionality extends TestBaseClass{
           
            if(hm.visiblityoftoastsuccessmessage()==true)
 		   log.info("test case is pass");
-           
-   	     
-		
+       
 	}
 	
-	
+	//***********2
 	@Test
 	public void Newsletter_Homepage_Negativetestcase1_Functionality() throws InterruptedException
 	{
@@ -84,7 +83,7 @@ public class Newsletter_Homepage_Functionality extends TestBaseClass{
 		
 	}
 	
-	
+	//***********3
 	@Test
 	public void Newsletter_Homepage_Negativetestcase2_Functionality() throws InterruptedException
 	{
@@ -122,6 +121,7 @@ public class Newsletter_Homepage_Functionality extends TestBaseClass{
    	   
 	}
 	
+	//***********4
 	@Test
 	public void Newsletter_Homepage_Negativetestcase3_Functionality() throws InterruptedException
 	{

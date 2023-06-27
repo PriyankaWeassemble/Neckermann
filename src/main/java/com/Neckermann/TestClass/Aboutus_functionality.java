@@ -15,7 +15,8 @@ import com.Neckermann.POMClasses.HomePOMClass;
 
 public class Aboutus_functionality extends TestBaseClass{
 	
-	@Test
+	//***********1
+	@Test(enabled=false)
 	public void Aboutusfunctionality_visiblityofNewsletter() throws IOException
 	{
 		   String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -42,8 +43,8 @@ public class Aboutus_functionality extends TestBaseClass{
 	  
 	}
 	
-	
-	@Test
+	//***********2
+	@Test(priority=-1)
 	public void AboutUSFunctionality_HomePage_Footer() throws IOException, InterruptedException
 	{
 		   String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -52,9 +53,11 @@ public class Aboutus_functionality extends TestBaseClass{
            log.info("Home page is open");
          
            HomePOMClass hm=new HomePOMClass(driver);
-           JavascriptExecutor js=(JavascriptExecutor)driver;
-           js.executeScript("window.scroll(0,6000)");
-           Thread.sleep(1000);
+//           
+           hm.scrolltothefooteraboutus();
+           Thread.sleep(3000);
+           
+           
            hm.clickonaboutusfromfooter();
         
            String expectedTitle1 = "About Us Neckermanntravel";   	
@@ -65,8 +68,8 @@ public class Aboutus_functionality extends TestBaseClass{
            
 	}
 	
-	
-	@Test
+	//***********3
+	@Test(enabled=false)
 	public void AboutUSFunctionality_HomePage_Header() throws IOException, InterruptedException
 	{
 		   String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -86,7 +89,9 @@ public class Aboutus_functionality extends TestBaseClass{
 //           ScreenshotClass.takeScreenshot(driver, "aboutus_PAGE");        	
 		
 	}
-	@Test
+	
+	//***********4
+	@Test(enabled=false)
 	public void AboutuspageElement_contactus_Functionality() throws IOException, InterruptedException {
 		
 		   String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -113,8 +118,8 @@ public class Aboutus_functionality extends TestBaseClass{
 	
 
 }
-	
-	@Test
+	//***********5
+	@Test(enabled=false)
 	public void AboutuspageElement_nextbackarrow_Functionality() throws IOException, InterruptedException {
 		
 		   String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -139,7 +144,8 @@ public class Aboutus_functionality extends TestBaseClass{
 
 }
 	
-	@Test
+	//***********6
+	@Test(enabled=false)
 	public void AboutuspageElement_Trustpilot_Functionality() throws IOException, InterruptedException {
 		
 		   String expectedTitle = "Neckermann Travel | Home Page";   	

@@ -9,6 +9,7 @@ import com.Neckermann.POMClasses.HomePOMClass;
 
 public class HamburgerMenu_Functionality extends TestBaseClass {
 	
+	//1
 	@Test
 	public void HamburgerMenu_Company_Functionality() throws IOException
 	{
@@ -61,7 +62,7 @@ public class HamburgerMenu_Functionality extends TestBaseClass {
 	   
 
 }
-	
+	//2
 	@Test
 	public void HamburgerMenu_Holidays_Functionality() throws IOException
 	{
@@ -89,7 +90,7 @@ public class HamburgerMenu_Functionality extends TestBaseClass {
 //       Assert.assertEquals(actualTitle1, expectedTitle1);
 	   log.info("User is on the egypt destination");
 	   
-	   //NEED TO ADD ASSERTION -->Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands
+	   //**********NEED TO ADD ASSERTION -->Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands
 	   
 	   hm.clcikonHamburgermenu();
 	   hm.clickonmenufromhamburgerm("Holidays");
@@ -151,7 +152,7 @@ public class HamburgerMenu_Functionality extends TestBaseClass {
 	}
 	
 	
-//	******************CHEK FOR THIS**********************
+//	3
 	@Test
 	public void HamburgerMenu_Legal_Functionality1() throws IOException, InterruptedException
 	{

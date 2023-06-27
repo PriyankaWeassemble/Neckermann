@@ -15,6 +15,7 @@ import com.Neckermann.POMClasses.HomePOMClass;
 
 public class ATOLprotecetd_Functionality extends TestBaseClass{
 	
+	//***********1
 	@Test
 	public void ATOLProtected_clickonATOL_Link_Functionality() throws IOException, InterruptedException
 	{
@@ -22,7 +23,7 @@ public class ATOLprotecetd_Functionality extends TestBaseClass{
 		   String actualTitle = driver.getTitle();
 		   Assert.assertEquals(actualTitle, expectedTitle);
            log.info("Home page is open");
-//           ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
+//         ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
         
 		   HomePOMClass hm= new HomePOMClass(driver);
 		   hm.clickonatolprotected();
@@ -55,7 +56,7 @@ public class ATOLprotecetd_Functionality extends TestBaseClass{
 }
 	
 	
-
+	//***********2
 	@Test
 	public void Atolprotecetdfunctionality_visiblityofNewsletter_Footer() throws IOException
 	{
@@ -88,7 +89,7 @@ public class ATOLprotecetd_Functionality extends TestBaseClass{
 		  
 	}
 	
-	
+	//***********3
 	@Test
 	public void ATOLProtected_clickontrustpilotonfeelthelove_Link_Functionality1() throws IOException, InterruptedException
 	{
@@ -126,6 +127,7 @@ public class ATOLprotecetd_Functionality extends TestBaseClass{
   		 log.info("user is directed to neckermann trustpilot");
 }
 	
+	//***********4
 	@Test
 	public void ATOLProtected_clickonunbdeatableprice_Link_Functionality() throws IOException, InterruptedException
 	{
@@ -137,6 +139,7 @@ public class ATOLprotecetd_Functionality extends TestBaseClass{
         
 		   HomePOMClass hm= new HomePOMClass(driver);
 		   hm.clickonatolprotected();
+		   Thread.sleep(1000);
 		
 //		ScreenshotClass.takeScreenshot(driver, "ATOL_PAGE");
 		
@@ -161,7 +164,7 @@ public class ATOLprotecetd_Functionality extends TestBaseClass{
   		 log.info("user is directed to the ATOL link");
 }
 	
-	
+	//***********5
 	@Test
 	public void ATOLProtected_clickonunbeatableprice_Link_Functionality1() throws IOException, InterruptedException
 	{
@@ -198,6 +201,7 @@ public class ATOLprotecetd_Functionality extends TestBaseClass{
 
 }
 	
+	//***********6
 	@Test
 	public void atolprotecetdfunctionality() throws IOException, InterruptedException
 	{

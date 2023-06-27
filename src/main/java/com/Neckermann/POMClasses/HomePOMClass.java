@@ -3,19 +3,25 @@ package com.Neckermann.POMClasses;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePOMClass {
 	
 	private WebDriver driver;
+	Actions act;
 	
 	public HomePOMClass(WebDriver driver)
 	{
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		act= new Actions(driver);
+		
 		
 	}
 	//******************ATOL tab
@@ -93,7 +99,7 @@ public class HomePOMClass {
 	}
 	
 	//selection of menus(Holidays,Company, Legal)
-	@FindBy(xpath="//div[@class='header_menuItemContainer__03kc9']")
+	@FindBy(xpath="//div[@class='header_menuItemContainer__03kc9']/button")
 	private List<WebElement> menufromhamburgerm;
 	
 	public void clickonmenufromhamburgerm(String x)
@@ -191,6 +197,9 @@ public class HomePOMClass {
 				}
 		}
 		
+		//**************collection *********************//
+		
+		
 		//select collections(Luxury,Golf and Sports,Family Getaway,City Breaks,All Inclusive,Adults Only)
 		@FindBy(xpath="//div[@class='collections_section_gallery__9zoMT collections_desktop__MBlWZ']/div/div[2]/span")
 		private List<WebElement> allcollections;
@@ -206,6 +215,42 @@ public class HomePOMClass {
 		}
 				}
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		//******************click on see all button from blog******************
 		@FindBy(xpath="(//a[text()='see all'])[1]")
@@ -281,7 +326,7 @@ public class HomePOMClass {
 			
 				//*****************Review on the home page************************//
 				
-				@FindBy(xpath="//section[@class='ourReviews_section_container__HHIDf ourReviews_our_reviews__93BUw']")
+				@FindBy(xpath="//section[@class='ourReviews_section__86ndH']")
 				private WebElement Reviewcomponent_homepage;
 		        
 		        public boolean visiblityofReviewcomponent_homepage()
@@ -428,7 +473,7 @@ public class HomePOMClass {
 				}
 				
 				//logo on the footer
-				@FindBy(xpath="//a[@class='footer_brand__vFXFx']/img")
+				@FindBy(xpath="//a[@class='footer_brand__vFXFx']")
 				private WebElement logoonthefooter;
 				
 				public boolean visiblityoflogoonthefooter()
@@ -459,15 +504,58 @@ public class HomePOMClass {
 				}
 				
 				
+				//Company menu from the footer(ATOL Protected,About Us,Contact Us)
+				@FindBy(xpath="//div[@class='footer_right_section__YrbQm']/div[1]/ul/li/a")
+				private List<WebElement> companysubmenufromfooterselection;
+				
+				public void clickoncompanysubmenufromfooterselection(String z)
+				{
+					for(int i=0;i<companysubmenufromfooterselection.size();i++)
+						{
+							if(companysubmenufromfooterselection.get(i).getText().contains(z))
+							{
+								companysubmenufromfooterselection.get(i).click();
+								break;
+				}
+						}
+				}
 				
 				
+				//Legal Submenu from the footer(Booking Conditions,Privacy Policy,Cookie Policy,Terms Of Use)
+				@FindBy(xpath="//div[@class='footer_right_section__YrbQm']/div[2]/ul/li/a")
+				private List<WebElement> legalsubmenufromfooterselection;
+				
+				public void clickonlegalsubmenufromfooterselection(String a)
+				{
+					for(int i=0;i<legalsubmenufromfooterselection.size();i++)
+						{
+							if(legalsubmenufromfooterselection.get(i).getText().contains(a))
+							{
+								legalsubmenufromfooterselection.get(i).click();
+								break;
+				}
+						}
+				}
+				
+				//Holidays sub-menu from the footer(Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands)
+				@FindBy(xpath="//div[@class='header_subMenuContainer__RUh3T']/div/a")
+				private List<WebElement> holidaytbsubmenusfromfooterelection;
+				
+				public void clickonholidaytbsubmenusfromfooterelection(String y)
+				{
+					for(int i=0;i<holidaytbsubmenusfromfooterelection.size();i++)
+						{
+							if(holidaytbsubmenusfromfooterelection.get(i).getText().contains(y))
+							{
+								holidaytbsubmenusfromfooterelection.get(i).click();
+								break;
+				}
+						}
+				}
 				
 				
-				
-				
-				
-				
-				
+			
+				//**********************************************
 				
 				//Atol protected from footer
 				@FindBy(xpath="(//a[text()='ATOL Protected'])[2]")
@@ -482,10 +570,21 @@ public class HomePOMClass {
 				@FindBy(xpath="//a[text()='About us']")
 				private WebElement aboutusfromfooter;
 				
+				//scroll upto aboutusfromfooter
+				public void scrolltothefooteraboutus()
+				{
+			   ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", aboutusfromfooter);
+
+				}
+				
+				
+				
 				public void clickonaboutusfromfooter()
 				{
 					aboutusfromfooter.click();
 				}
+				
+								
 				
 				//contact us from footer
 				@FindBy(xpath="//a[text()='Contact us']")
@@ -532,12 +631,202 @@ public class HomePOMClass {
 					cookiepolicyfromfooter.click();
 				}
 				
+				//*******************************************
+		
+				
+
+				//Social media from the footer
+				//Instagram
+				@FindBy(xpath="//div[@class='footer_social_icons__XLV5Z']/a[1]")
+				private WebElement instagramfromfooter;
+
+				public void clcikoninstagramfromfooter()
+				{
+					instagramfromfooter.click();
+				}
+
+				//Pininsert
+				@FindBy(xpath="//div[@class='footer_social_icons__XLV5Z']/a[2]")
+				private WebElement Pininsertfromfooter;
+
+				public void clcikonPininsertfromfooter()
+				{
+					Pininsertfromfooter.click();
+				}
+
+				//Ticktock
+				@FindBy(xpath="//div[@class='footer_social_icons__XLV5Z']/a[3]")
+				private WebElement Ticktockfromfooter;
+
+				public void clcikonTicktockfromfooter()
+				{
+					Ticktockfromfooter.click();
+				}
+
+				//Facebook
+				@FindBy(xpath="//div[@class='footer_social_icons__XLV5Z']/a[4]")
+				private WebElement Facebookfromfooter;
+
+				public void clcikonFacebookfromfooter()
+				{
+					Facebookfromfooter.click();
+				}
+
+				//content from the footer
+				@FindBy(xpath="(//p[@class='footer_copyright_text__tAHgN'])[2]")
+				private WebElement footercontent;
+
+				public String gettextfromfootercontent()
+				{
+					String a= footercontent.getText();
+					return a;
+					
+				}
+
+				//civil aviation link from the footer
+				@FindBy(xpath="//a[text()='Civil Aviation Authority']")
+				private WebElement civilaviationlinkfromfootercontent;
+
+				public void clcikoncivilaviationlinkfromfootercontent()
+				{
+					civilaviationlinkfromfootercontent.click();
+				}
+				public String gettextfromcivilaviationlinkfromfootercontent()
+				{
+					String b= civilaviationlinkfromfootercontent.getText();
+					return b;
+				}
+		
+				//***********************DESTINATIONS********************//
+				
+				//(Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands)
+				@FindBy(xpath="//div[@class='topDestinations_section_gallery__w61_w']//a")
+				private List<WebElement> Destinationfromhomepage;
+
+				 public void clickonDestinationfromhomepage(String b)//if want to click on the all then remove the argument
+	                {
+	                        for(int i=0;i<Destinationfromhomepage.size();i++)
+	                                {
+	                                        if(Destinationfromhomepage.get(i).getText().contains(b))
+	                                        {
+	                                        	Destinationfromhomepage.get(i).click();
+	                                                break;
+	                }
+	                                }
+	                }
+				
 				
 		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 		
-		
-		
-		
+				//*********************Search Widget************************//
+				
+				//text on destination field
+				@FindBy(xpath="//select[@id='flights-and-hotels-destination-input']//option[text()='Going to']")
+				private WebElement textondestinationhomepagelement ;
+				
+				public String gettextfromtextondestinationhomepagelement()
+				{
+					String a=textondestinationhomepagelement.getText();
+					return a;
+				}
+				//destination element
+				
+				@FindBy(xpath="//div[@class='destination-input_popperContainer__qsspL']")
+				private WebElement destinationhomepagelement ;
+				
+				
+				public void clickondestinationhomepagelement()
+				{
+					destinationhomepagelement.click();
+				}
+//				
+				//select "Larnaca" from detination(cyprus)
+				@FindBy(xpath="//option[text()='Larnaca']")
+				private WebElement selectdestination ;
+				
+				public void clickonselectdestination()
+				{
+				  act.click(selectdestination);
+					
+					
+					
+//					act.sendKeys(Keys.ARROW_UP).sendKeys(Keys.ARROW_UP).perform();
+//					act.sendKeys(Keys.ENTER).perform();
+				}
+		       				
+				
+				//departure airport
+				
+				@FindBy(xpath="//input[@id='flight-and-hotel-departure-input']")
+				private WebElement departureAirportonhomepagelement ;
+				
+				
+				public void clickondepartureAirportonhomepagelement()
+				{
+					departureAirportonhomepagelement.click();
+				}
+				
+				public String getattributevalue()
+				{
+					String b=departureAirportonhomepagelement.getAttribute("placeholder");
+					return b;
+				}
+				
+				
+				
+				
+				
+				
+//				select Airports from the Departure(birmingham, bournemouth,bristol,cardiff,edinburgh,gatwick,glasgow international,heathrow,leeds bradford, liverpool,
+//				                                   london - all airports,luton, manchester,newcastle,stansted)
+								
+				@FindBy(xpath="//ul[@id='departureAirportList']/li[@class='departure-input_inputGroup__M2Gt0']")
+				private List<WebElement> AirportofdepartureAirport;
+				                
+                public void clickonAirportofdepartureAirport(String b)//if want to click on the all then remove the argument
+                {
+                        for(int i=0;i<AirportofdepartureAirport.size();i++)
+                                {
+                                        if(AirportofdepartureAirport.get(i).getText().contains(b))
+                                        {
+                                        	AirportofdepartureAirport.get(i).click();
+                                                break;
+                }
+                                }
+                }
+				
+				
 		
 		
 		
