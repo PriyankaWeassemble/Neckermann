@@ -64,12 +64,12 @@ public class ATOLprotecetd_Functionality extends TestBaseClass{
 		   String actualTitle = driver.getTitle();
 		   Assert.assertEquals(actualTitle, expectedTitle);
            log.info("Home page is open");
-           ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
+//           ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
         
 		HomePOMClass hm= new HomePOMClass(driver);
 		hm.clickonatolprotected();
 		
-		ScreenshotClass.takeScreenshot(driver, "ATOL_PAGE");
+//		ScreenshotClass.takeScreenshot(driver, "ATOL_PAGE");
 		
 		   String expectedTitle1 = "Book with confidence- Neckermanntravel";   	
 		   String actualTitle1 = driver.getTitle();
@@ -209,12 +209,12 @@ public class ATOLprotecetd_Functionality extends TestBaseClass{
 		   String actualTitle = driver.getTitle();
 		   Assert.assertEquals(actualTitle, expectedTitle);
            log.info("Home page is open");
-           ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
+//           ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
         
 		HomePOMClass hm= new HomePOMClass(driver);
 		hm.clickonatolprotected();
 		
-		ScreenshotClass.takeScreenshot(driver, "ATOL_PAGE");
+//		ScreenshotClass.takeScreenshot(driver, "ATOL_PAGE");
 		
 		   String expectedTitle1 = "Book with confidence- Neckermanntravel";   	
 		   String actualTitle1 = driver.getTitle();

@@ -199,6 +199,28 @@ public class HomePOMClass {
 		
 		//**************collection *********************//
 		
+		//visibility of the collection on the home page
+		
+		@FindBy(xpath="//section[@class='collections_section_container__wZxnz collections_collections_section__gQV4N']")
+		private WebElement visibilityofcollectiononhomepage;
+		
+		public boolean visibilityofcollectiononhomepage()
+		{
+			boolean a=visibilityofcollectiononhomepage.isDisplayed();
+			return a;
+		}
+		
+	 
+		//click on the collection from home page just change the index from 1 to 6
+		
+				@FindBy(xpath="	(//div[@class='collections_img_container__6GYSN']/a)[1]")//-->from 1 to 6 sequencelly collections(Luxury,Golf and Sports,Family Getaway,City Breaks,All Inclusive,Adults Only)
+				private WebElement particularcollection;
+				
+				public void clickonparticularcollection()
+				{
+					particularcollection.click();
+				}
+		
 		
 		//select collections(Luxury,Golf and Sports,Family Getaway,City Breaks,All Inclusive,Adults Only)
 		@FindBy(xpath="//div[@class='collections_section_gallery__9zoMT collections_desktop__MBlWZ']/div/div[2]/span")

@@ -23,7 +23,7 @@ public class Aboutus_functionality extends TestBaseClass{
 		   String actualTitle = driver.getTitle();
 		   Assert.assertEquals(actualTitle, expectedTitle);
            log.info("Home page is open");
-           ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
+//           ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
    
 		HomePOMClass hm= new HomePOMClass(driver);
 		hm.clickonaboutus();
@@ -126,7 +126,7 @@ public class Aboutus_functionality extends TestBaseClass{
 		   String actualTitle = driver.getTitle();
 		   Assert.assertEquals(actualTitle, expectedTitle);
            log.info("Home page is open");
-           ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
+//           ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
       
 		HomePOMClass hm= new HomePOMClass(driver);
 		hm.clickonaboutus();
@@ -152,7 +152,7 @@ public class Aboutus_functionality extends TestBaseClass{
 		   String actualTitle = driver.getTitle();
 		   Assert.assertEquals(actualTitle, expectedTitle);
            log.info("Home page is open");
-           ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
+//           ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
       
 		HomePOMClass hm= new HomePOMClass(driver);
 		hm.clickonaboutus();

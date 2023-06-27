@@ -191,7 +191,28 @@ public class DestinationsPOMClass {
 								
 							}			
 							
+		//for checking the visiblity of the newsletter
+							@FindBy(xpath="//div[@class='newsletter_section_gallery__eKeHL']")
+							private WebElement Newsletteronaboutus;
 							
+							public boolean visiblityofnewsletter()
+							{
+								boolean x=Newsletteronaboutus.isDisplayed();
+								return x;
+							}
+							
+							
+		//for checking the visiblity of the footer
+							
+							@FindBy(xpath="//footer[@class='footer_section_container__PyfBS']")
+							private WebElement footeraboutus;
+							
+							public boolean visiblityoffooteraboutus()
+							{
+								boolean y=footeraboutus.isDisplayed();
+								return y;
+							}	
+					
 							
 							
 							

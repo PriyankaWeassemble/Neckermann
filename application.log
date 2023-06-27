@@ -3553,3 +3553,33 @@ Dubai
 2023-06-26 17:29:46,656  INFO [main] Neckermann:55 - URL is opened
 2023-06-26 17:29:46,806  INFO [main] Neckermann:63 - cookie policy accepted
 2023-06-26 17:29:46,826  INFO [main] Neckermann:361 - Home page is open
+2023-06-27 11:02:53,375  INFO [main] Neckermann:48 - Browser is opened
+2023-06-27 11:02:53,502  INFO [main] Neckermann:52 - Browser is maximized
+2023-06-27 11:02:58,513  INFO [main] Neckermann:55 - URL is opened
+2023-06-27 11:02:58,646  INFO [main] Neckermann:63 - cookie policy accepted
+2023-06-27 11:02:58,680  INFO [main] Neckermann:20 - Home page is open
+2023-06-27 11:03:00,783  INFO [main] Neckermann:31 - collection component is visible on the destination
+2023-06-27 11:15:39,732  INFO [main] Neckermann:48 - Browser is opened
+2023-06-27 11:15:39,863  INFO [main] Neckermann:52 - Browser is maximized
+2023-06-27 11:15:44,342  INFO [main] Neckermann:55 - URL is opened
+2023-06-27 11:15:44,464  INFO [main] Neckermann:63 - cookie policy accepted
+2023-06-27 11:15:44,504  INFO [main] Neckermann:22 - Home page is open
+2023-06-27 11:15:46,553  INFO [main] Neckermann:33 - collection component is visible on the destination
+2023-06-27 11:16:20,678  INFO [main] Neckermann:44 - Header from the collection component is visible 
+2023-06-27 11:16:45,324  INFO [main] Neckermann:49 - Search widget from the collection component is visible 
+2023-06-27 11:16:45,365  INFO [main] Neckermann:54 - Breadcrumb from the collection component is visible 
+2023-06-27 11:16:45,411  INFO [main] Neckermann:59 - Newsletter from the collection component is visible 
+2023-06-27 11:16:45,459  INFO [main] Neckermann:64 - footer from the collection component is visible 
+2023-06-27 11:16:45,459  INFO [main] Neckermann:66 - Test case is Pass
+2023-06-27 11:25:45,205  INFO [main] Neckermann:48 - Browser is opened
+2023-06-27 11:25:45,335  INFO [main] Neckermann:52 - Browser is maximized
+2023-06-27 11:25:47,271  INFO [main] Neckermann:55 - URL is opened
+2023-06-27 11:25:47,405  INFO [main] Neckermann:63 - cookie policy accepted
+2023-06-27 11:25:47,426  INFO [main] Neckermann:22 - Home page is open
+2023-06-27 11:25:49,493  INFO [main] Neckermann:33 - collection component is visible on the destination
+2023-06-27 11:25:53,605  INFO [main] Neckermann:44 - Header from the collection component is visible 
+2023-06-27 11:25:53,657  INFO [main] Neckermann:49 - Search widget from the collection component is visible 
+2023-06-27 11:25:53,701  INFO [main] Neckermann:54 - Breadcrumb from the collection component is visible 
+2023-06-27 11:25:53,747  INFO [main] Neckermann:59 - Newsletter from the collection component is visible 
+2023-06-27 11:25:53,780  INFO [main] Neckermann:64 - footer from the collection component is visible 
+2023-06-27 11:25:53,780  INFO [main] Neckermann:66 - Test case is Pass

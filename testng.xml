@@ -19,9 +19,12 @@
          <!--Run successfully
           <class name="com.Neckermann.TestClass.HamburgerMenu_Functionality"/>
          <class name="com.Neckermann.TestClass.ATOLprotecetd_Functionality"/>
+          <class name="com.Neckermann.TestClass.Footer__Functionality"/>
+          <class name="com.Neckermann.Collection_Functionality"/>
           -->
-     
-             <class name="com.Neckermann.TestClass.Footer__Functionality"/>
+        <class name="com.Neckermann.Collection_Functionality"/>
+        
+            
              
     </classes>
   </test> <!-- Test -->
