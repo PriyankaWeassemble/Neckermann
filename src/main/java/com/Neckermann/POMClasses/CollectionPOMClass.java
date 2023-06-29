@@ -78,13 +78,13 @@ public class CollectionPOMClass {
 		@FindBy(xpath="//h1[@class='collectionTabs_title__zQxMQ']")
 		private WebElement Titleofcollection;
 		
-		public String gettextfromTitleofdestination()
+		public String gettextfromTitleofcollection()
 		{
 		    String a=Titleofcollection.getText();
 		    return a;
 		}
 		
-		//Visibility of more destination
+		//Visibility of more collection
 		
 		@FindBy(xpath="//section[@class='collectionsHolidays_top_section__YOsrW']") //change the index number(2,3)
 		private WebElement visibilityofmorecollection;
