@@ -131,19 +131,12 @@ public class HomePOMClass {
 		}
 		
 		//company submenu(ATOL Protected,About Us,Contact Us)
-		@FindBy(xpath="//div[@class='header_subMenuContainer__RUh3T']/div")
-		private List<WebElement> companysubmenuselection;
+		@FindBy(xpath="//a[text()='Contact Us']")
+		private WebElement companysubmenuselection;
 		
-		public void clickoncompanysubmenuselection(String z)
+		public void clickoncompanysubmenuselection()
 		{
-			for(int i=0;i<companysubmenuselection.size();i++)
-				{
-					if(companysubmenuselection.get(i).getText().contains(z))
-					{
-						companysubmenuselection.get(i).click();
-						break;
-		}
-				}
+			companysubmenuselection.click();
 		}
 		
 		

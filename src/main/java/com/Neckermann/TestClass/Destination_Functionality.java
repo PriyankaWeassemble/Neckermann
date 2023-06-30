@@ -352,7 +352,7 @@ public class Destination_Functionality extends TestBaseClass {
 	
 	
 	//11  View more button on destination
-           @Test
+           @Test(enabled=false)
         	public void viewmorw_button_Functionality() throws InterruptedException 
         	{
         		   String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -382,6 +382,37 @@ public class Destination_Functionality extends TestBaseClass {
                    
            
 	}
+           
+           //12. View button on destination from the individual hotel
+           
+                 
+           @Test(enabled=false)
+       	public void view_button_Functionality() throws InterruptedException 
+       	{
+       		   String expectedTitle = "Neckermann Travel | Home Page";   	
+       		   String actualTitle = driver.getTitle();
+       		   Assert.assertEquals(actualTitle, expectedTitle);
+                  log.info("Home page is open");
+               
+       	 	   HomePOMClass hm= new HomePOMClass(driver);
+       		   JavascriptExecutor js=(JavascriptExecutor)driver;
+                  js.executeScript("window.scroll(0,1800)");
+                  Thread.sleep(2000);
+       		   
+                   //(Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands)
+       		      hm.clickonalldestinationsfromhomepage("Egypt");
+       		      Thread.sleep(2000);  
+       		      DestinationsPOMClass dm=new DestinationsPOMClass(driver);
+                  js.executeScript("window.scroll(0,1500)");
+                  Thread.sleep(2000);
+		   
+                  dm.clickonviewbuttonforindividualhotel();
+                  Thread.sleep(1000);
+             	} 
+           
+           
+           
+              
            //travel guide
            //things to do
            

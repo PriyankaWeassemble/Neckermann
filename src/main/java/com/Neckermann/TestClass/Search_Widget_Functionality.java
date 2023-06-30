@@ -58,7 +58,7 @@ public class Search_Widget_Functionality extends TestBaseClass{
 		   log.info("departure Airport selected-->test case pass");
            
            
-           
+//           destination--->//option[text()='Ibiza']
 	}
 	
 	

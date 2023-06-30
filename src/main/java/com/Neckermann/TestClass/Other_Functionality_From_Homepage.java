@@ -13,7 +13,7 @@ import com.Neckermann.POMClasses.HomePOMClass;
 public class Other_Functionality_From_Homepage extends TestBaseClass{
 	
 	//***********1
-	@Test  //(enabled=false)
+	@Test  (enabled=false)
 	public void FlashDealsVideo_functionality() throws InterruptedException
 	{
 		String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -33,7 +33,7 @@ public class Other_Functionality_From_Homepage extends TestBaseClass{
 	}
 	
 	//***********2
-	@Test(priority=0)   //(enabled=false)
+	@Test(priority=0,enabled=false)
 	public void Neckermann_Logo_Functionality() throws InterruptedException, IOException
 	{
 		String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -60,7 +60,7 @@ public class Other_Functionality_From_Homepage extends TestBaseClass{
 	
 
 	//***********3
-	@Test(priority=-1)
+	@Test(priority=-1,enabled=false)
 	public void Review_onThe_Homepage_Functionality() throws IOException, InterruptedException
 	{
 		   String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -96,7 +96,7 @@ public class Other_Functionality_From_Homepage extends TestBaseClass{
 	}
 	
 	//***********4
-	@Test   //(enabled=false)
+	@Test(enabled=false)
 	public void Trust_cards_onhomepage_Functionality1() throws IOException, InterruptedException
 	{
 		   String expectedTitle = "Neckermann Travel | Home Page";   	
@@ -112,9 +112,36 @@ public class Other_Functionality_From_Homepage extends TestBaseClass{
    		    
    		 
 	}
-
 	
 	
+     //5.	contact us from hamburger menu
+	
+	@Test  //(enabled=false)
+	public void contactusfromhamburgermenu() throws IOException, InterruptedException
+	{
+		   String expectedTitle = "Neckermann Travel | Home Page";   	
+		   String actualTitle = driver.getTitle();
+		   Assert.assertEquals(actualTitle, expectedTitle);
+           log.info("Home page is open");
+         
+           HomePOMClass hm=new HomePOMClass(driver);
+           hm.clcikonHamburgermenu();
+		   Thread.sleep(1000);
+		   
+		   hm.clickonmenufromhamburgerm("Company");
+		   Thread.sleep(1000);
+		   hm.clickoncompanysubmenuselection();
+		   Thread.sleep(1000);
+		   
+		   String expectedTitle1 = "Contact Us | Neckermanntravel";   	
+		   String actualTitle1 = driver.getTitle();
+		   Assert.assertEquals(actualTitle1, expectedTitle1);
+           log.info("Contact Us is open");
+           
+        
+   		    
+   		 
+	}
 	
 	
 
