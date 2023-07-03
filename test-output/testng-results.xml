@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-30T16:00:34 IST" name="Default suite" finished-at="2023-06-30T16:00:51 IST" duration-ms="16847">
+  <suite started-at="2023-07-03T16:41:14 IST" name="Default suite" finished-at="2023-07-03T16:41:24 IST" duration-ms="10401">
     <groups>
     </groups>
-    <test started-at="2023-06-30T16:00:34 IST" name="Default test" finished-at="2023-06-30T16:00:51 IST" duration-ms="16847">
-      <class name="com.Neckermann.TestClass.Travel_Guide_Functionality">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Travel_Guide_Functionality@17497425]" started-at="2023-06-30T16:00:34 IST" name="setUp" finished-at="2023-06-30T16:00:41 IST" duration-ms="7316" status="PASS">
+    <test started-at="2023-07-03T16:41:14 IST" name="Default test" finished-at="2023-07-03T16:41:24 IST" duration-ms="10401">
+      <class name="com.Neckermann.TestClass.VerifyWhether_Useropen_termsandconditionlink_fromunbeatableprice_onATOLPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_Useropen_termsandconditionlink_fromunbeatableprice_onATOLPage@c88a337]" started-at="2023-07-03T16:41:14 IST" name="setUp" finished-at="2023-07-03T16:41:22 IST" duration-ms="7771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="FCDO_link_Functionality()[pri:0, instance:com.Neckermann.TestClass.Travel_Guide_Functionality@17497425]" started-at="2023-06-30T16:00:41 IST" name="FCDO_link_Functionality" finished-at="2023-06-30T16:00:51 IST" duration-ms="9300" status="PASS">
+        <test-method signature="ATOLProtected_clickonunbeatableprice_Link_Functionality1()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_Useropen_termsandconditionlink_fromunbeatableprice_onATOLPage@c88a337]" started-at="2023-07-03T16:41:22 IST" name="ATOLProtected_clickonunbeatableprice_Link_Functionality1" finished-at="2023-07-03T16:41:24 IST" duration-ms="2410" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FCDO_link_Functionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Travel_Guide_Functionality@17497425]" started-at="2023-06-30T16:00:51 IST" name="tearDown" finished-at="2023-06-30T16:00:51 IST" duration-ms="204" status="PASS">
+        </test-method> <!-- ATOLProtected_clickonunbeatableprice_Link_Functionality1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_Useropen_termsandconditionlink_fromunbeatableprice_onATOLPage@c88a337]" started-at="2023-07-03T16:41:24 IST" name="tearDown" finished-at="2023-07-03T16:41:24 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Neckermann.TestClass.Travel_Guide_Functionality -->
+      </class> <!-- com.Neckermann.TestClass.VerifyWhether_Useropen_termsandconditionlink_fromunbeatableprice_onATOLPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

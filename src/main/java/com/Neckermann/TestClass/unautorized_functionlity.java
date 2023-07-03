@@ -11,44 +11,37 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
 
 public class unautorized_functionlity {
-	
-	@Test
-	public void unauthorizedpage_functionality() throws InterruptedException
-	{
-	
-	
-	 ChromeOptions opt=new ChromeOptions();
- 	opt.addArguments("--remote-allow-origins=*");
- 	
 
-   	WebDriver driver=new ChromeDriver(opt);
-   	driver.get("https://staging.neckermanntravel.co.uk/fbf");	
-		
+	@Test
+	public void unauthorizedpage_functionality() throws InterruptedException {
+
+		ChromeOptions opt = new ChromeOptions();
+		opt.addArguments("--remote-allow-origins=*");
+
+		WebDriver driver = new ChromeDriver(opt);
+		driver.get("https://staging.neckermanntravel.co.uk/fbf");
+
 		driver.manage().window().maximize();
 		System.out.println("Browser is maximized");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		
-		WebElement cookieelement=driver.findElement(By.xpath("//button[@class='cookies_btn2__g59MH']"));
+
+		WebElement cookieelement = driver.findElement(By.xpath("//button[@class='cookies_btn2__g59MH']"));
 		cookieelement.click();
 		Thread.sleep(1000);
-		
-		
-		WebElement containerofpagenotfound=driver.findElement(By.xpath("//div[@class='PageNotFound_container__afuyD']"));
-		if(containerofpagenotfound.isDisplayed()==true)
-		{
-		System.out.println("404 page is open");
-		System.out.println("test case pass");
+
+		WebElement containerofpagenotfound = driver
+				.findElement(By.xpath("//div[@class='PageNotFound_container__afuyD']"));
+		if (containerofpagenotfound.isDisplayed() == true) {
+			System.out.println("404 page is open");
+			System.out.println("test case pass");
 		}
 
 		else
 			System.out.println("test case fail");
-		
+
 		driver.quit();
 		System.out.println("browser is closed");
-		
-	
+
 	}
-
-
 
 }

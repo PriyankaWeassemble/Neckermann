@@ -1,7 +1,9 @@
 package com.Neckermann.TestClass;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -18,25 +20,22 @@ import com.Neckerman.UtilityClass.ScreenshotClass;
 import com.Neckermann.POMClasses.HomePOMClass;
 
 public class TestBaseClass {
-	
-	
-	   Logger log= Logger.getLogger("Neckermann");
-	   WebDriver driver;
-	   
-	   
+
+	Logger log = Logger.getLogger("Neckermann");
+	WebDriver driver;
+
 //	    @Parameters("browserName")
-		@BeforeMethod
-		public void setUp() throws IOException
-		{
+	@BeforeMethod
+	public void setUp() throws IOException {
 //			if(browserName.equals("chrome"))
 //			{
-	    	ChromeOptions opt=new ChromeOptions();
-	    	opt.addArguments("--remote-allow-origins=*");
-	    	
+		ChromeOptions opt = new ChromeOptions();
+		opt.addArguments("--remote-allow-origins=*");
+
 //			    System.setProperty("webdriver.chrome.driver", 
 //						"./Drivers\\chromedriver.exe");
-	            driver = new ChromeDriver(opt);
-			
+		driver = new ChromeDriver(opt);
+
 //			else
 //			{
 //				System.setProperty("webdriver.gecko.driver", 
@@ -44,36 +43,44 @@ public class TestBaseClass {
 //				driver = new FirefoxDriver();
 //			}
 
-			PropertyConfigurator.configure("log4j.properties");			
-			log.info("Browser is opened");
-			
-			
-			driver.manage().window().maximize();
-			log.info("Browser is maximized");
-			
-			driver.get("https://staging.neckermanntravel.co.uk/");
-			log.info("URL is opened");
-			
-//			ScreenshotClass.takeScreenshot(driver,"cookiepageopen");
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-			
-			HomePOMClass hm= new HomePOMClass(driver);
-			hm.acceptcookiepolicy();
-//			ScreenshotClass.takeScreenshot(driver,"Homepage");
-			log.info("cookie policy accepted");
-			}
-		
-		
-		@AfterMethod
-		public void tearDown() 
-		{
+		PropertyConfigurator.configure("log4j.properties");
+		log.info("Browser is opened");
 
-			driver.quit();
-			System.out.println("browser is closed");
-			
-		}
+		driver.manage().window().maximize();
+		log.info("Browser is maximized"); 
+
+		driver.get("https://staging.neckermanntravel.co.uk/");
+		log.info("URL is opened");
+
+//			ScreenshotClass.takeScreenshot(driver,"cookiepageopen");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
+		HomePOMClass hm = new HomePOMClass(driver);
+		hm.acceptcookiepolicy();
+//			ScreenshotClass.takeScreenshot(driver,"Homepage");
+		log.info("cookie policy accepted");
+		
+       Properties prop=new Properties();
+	   FileInputStream  ip=new FileInputStream("C:\\Users\\Priyanka Lanjekar\\git\\Neckermann\\Neckermann\\src\\main\\java\\com\\Neckermann\\TestClass\\config.properties");
+	   prop.load(ip);
+
+	
+	String expectedTitle = prop.getProperty("homepagetitle");
+	String actualTitle = driver.getTitle();
+	Assert.assertEquals(actualTitle, expectedTitle);
+	log.info("Home page is open");
+//    ScreenshotClass.takeScreenshot(driver, "Home_PAGE");
+		
+		
+		
+	}
+
+	@AfterMethod
+	public void tearDown() {
+
+		driver.quit();
+		System.out.println("browser is closed");
 
 	}
 
-
-
+}

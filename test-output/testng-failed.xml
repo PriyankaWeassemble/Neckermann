@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Neckermann.TestClass.Travel_Guide_Functionality">
+      <class name="com.Neckermann.TestClass.Verifywhether_user_clickAllthe_Popup_on_ATOLprotecetd">
         <methods>
           <include name="setUp"/>
-          <include name="FCDO_link_Functionality"/>
+          <include name="atolprotecetdfunctionality"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Neckermann.TestClass.Travel_Guide_Functionality -->
+      </class> <!-- com.Neckermann.TestClass.Verifywhether_user_clickAllthe_Popup_on_ATOLprotecetd -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

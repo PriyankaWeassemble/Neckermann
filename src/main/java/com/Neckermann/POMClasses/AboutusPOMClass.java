@@ -9,67 +9,58 @@ import org.openqa.selenium.support.PageFactory;
 public class AboutusPOMClass {
 	WebDriver driver;
 
-	public AboutusPOMClass(WebDriver driver)
-	{
+	public AboutusPOMClass(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		
+
 	}
-	
-	@FindBy(xpath="//a[text()='Contact Us']")
+
+	@FindBy(xpath = "//a[text()='Contact Us']")
 	private WebElement contactusonaboutus;
-	
-	public void clickoncontactusonaboutus()
-	{
+
+	public void clickoncontactusonaboutus() {
 		contactusonaboutus.click();
 	}
-	
-	@FindBy(xpath="//a[@class='ourReviews_mid_section_bottom__JTB_G']")
+
+	@FindBy(xpath = "//a[@class='ourReviews_mid_section_bottom__JTB_G']")
 	private WebElement trustpiolet;
-	
-	public void clickontrustpiolet()
-	{
+
+	public void clickontrustpiolet() {
 		trustpiolet.click();
 	}
-	
-	//back and front arrow on the review
-	@FindBy(xpath="//button[text()='Next']")
+
+	// back and front arrow on the review
+	@FindBy(xpath = "//button[text()='Next']")
 	private WebElement nextarrow;
-	
-	public void clickonnextarrow()
-	{
+
+	public void clickonnextarrow() {
 		nextarrow.click();
 	}
-	
-	@FindBy(xpath="//button[text()='Previous']")
+
+	@FindBy(xpath = "//button[text()='Previous']")
 	private WebElement previousarrow;
-	
-	public void clickonpreviousarrow()
-	{
+
+	public void clickonpreviousarrow() {
 		previousarrow.click();
 	}
-	
-	//for checking the visiblity of the newsletter
-	@FindBy(xpath="//div[@class='newsletter_section_gallery__eKeHL']")
+
+	// for checking the visiblity of the newsletter
+	@FindBy(xpath = "//div[@class='newsletter_section_gallery__eKeHL']")
 	private WebElement Newsletteronaboutus;
-	
-	public boolean visiblityofnewsletter()
-	{
-		boolean x=Newsletteronaboutus.isDisplayed();
+
+	public boolean visiblityofnewsletter() {
+		boolean x = Newsletteronaboutus.isDisplayed();
 		return x;
 	}
-	
-	
-	//for checking the visiblity of the footer
-	
-	@FindBy(xpath="//footer[@class='footer_section_container__PyfBS']")
+
+	// for checking the visiblity of the footer
+
+	@FindBy(xpath = "//footer[@class='footer_section_container__PyfBS']")
 	private WebElement footeraboutus;
-	
-	public boolean visiblityoffooteraboutus()
-	{
-		boolean y=footeraboutus.isDisplayed();
+
+	public boolean visiblityoffooteraboutus() {
+		boolean y = footeraboutus.isDisplayed();
 		return y;
 	}
-	
 
 }
