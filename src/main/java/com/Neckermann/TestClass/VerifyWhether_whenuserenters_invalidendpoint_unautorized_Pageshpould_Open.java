@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
 
-public class unautorized_functionlity {
+public class VerifyWhether_whenuserenters_invalidendpoint_unautorized_Pageshpould_Open {
 
 	@Test
 	public void unauthorizedpage_functionality() throws InterruptedException {

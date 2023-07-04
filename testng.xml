@@ -1,31 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="3" parallel="classes" name="Test">
+  <test thread-count="5" name="Test">
     <classes>
-		
-     <!--  
-      <class name="com.Neckermann.TestClass.HamburgerMenu_Holidays_Functionality"/>
-      <class name="com.Neckermann.TestClass.Atolprotecetdfunctionality_visiblityofNewsletter_Footer"/>
-      -->
+      <class name="com.Neckermann.TestClass.VerifyWhether_whenuserenters_invalidendpoint_unautorized_Pageshpould_Open"/>
+      <class name="com.Neckermann.TestClass.VerifyWhether_clickontrustpilotonfeelthelove_on_ATOLProtected"/>
+      <class name="com.Neckermann.TestClass.VerifyWhether_Useropens_AboutUs_from_Footer"/>
+      <class name="com.Neckermann.TestClass.Verify_The_Page_forthe_Broken_links"/>
+      <class name="com.Neckermann.TestClass.Verify_the_FlashDealsVideo_functionality_onHomePage"/>
+      <class name="com.Neckermann.TestClass.VerifyThe_suscribeNewsletter_Failmessage_visibility_OnNeckermann"/>
+      <class name="com.Neckermann.TestClass.VerifyWhetherthe_userclickon_ATOLProtectedmore_Link_fromthe_AtolPage"/>
+      <class name="com.Neckermann.TestClass.Verifywhether_user_clickAllthe_Popup_on_ATOLprotecetd"/>
+      <class name="com.Neckermann.TestClass.Verify_AfterpassingNullValue_InNewsletter_visibilityof_enteremailerror_InNewsletter"/>
+      <class name="com.Neckermann.TestClass.VerifyWhether_Useropen_termsandconditionlink_fromunbeatableprice_onATOLPage"/>
+      <class name="com.Neckermann.TestClass.Verifythe_submenus_fromthe_LegalMenu__From_HamburgerMenu"/>
+      <class name="com.Neckermann.TestClass.VerifyWhether_User_Open_Aboutus_from_Header"/>
+      <class name="com.Neckermann.TestClass.VerifyWhether_user_select_contactus_from_hamburgermenu"/>
+      <class name="com.Neckermann.TestClass.Verify_The_TrustCard_Functionality_onHome_Page"/>
+      <class name="com.Neckermann.TestClass.VisibilityofNewsletter_and_Footer_On_Aboutus_Page"/>
+      <class name="com.Neckermann.TestClass.Verifythe_CompanyMenu_ContactUs_From_HamburgerMenu"/>
+      <class name="com.Neckermann.TestClass.VerifyWhether_fromthe_aboutusPage_User_clickon_forward_and_BackwardArrow_intheReviewSection"/>
+      <class name="com.Neckermann.TestClass.VerifyWhether_UserClickson_ContactUs_Button_from_AboutUsPage"/>
+      <class name="com.Neckermann.TestClass.VerifyThe_Reviews_functionality_on_The_HomePage"/>
+      <class name="com.Neckermann.TestClass.VerfiyThe_InvalidEmail_FailureMessage_Visibility_on_Newsletter"/>
+      <class name="com.Neckermann.TestClass.VerifyWhethre_User_clickonthe_Trustpilot_from_Aboutus_page"/>
+      <class name="com.Neckermann.TestClass.Newsletter_and_footer_Visibility_on_ATOLPage"/>
+      <class name="com.Neckermann.TestClass.VerfiyThe_Logo_Functionality_On_the_Header"/>
+      <class name="com.Neckermann.TestClass.Verifythe_submenus_fromthe_HolidayMenu__From_HamburgerMenu"/>
+      <class name="com.Neckermann.TestClass.VerifyThe_suscribeNewsletter_successmessage_visibility_OnNeckermann"/>
+      <class name="com.Neckermann.TestClass.VerifyWhether_userOpen_contactuslink_fromQualityassured_ATOL_Page"/>
       
       
-      <!--failed because of scroll
-        <class name="com.Neckermann.TestClass.Aboutus_functionality"/>
-        <class name="com.Neckermann.TestClass.Newsletter_Homepage_Functionality"/>
-        <class name="com.Neckermann.TestClass.Other_Functionality_From_Homepage"/>
-          
-         -->
-         <!--Run successfully
-          <class name="com.Neckermann.TestClass.HamburgerMenu_Functionality"/>
-         <class name="com.Neckermann.TestClass.ATOLprotecetd_Functionality"/>
-          <class name="com.Neckermann.TestClass.Footer__Functionality"/>
-          <class name="com.Neckermann.Collection_Functionality"/>
-          -->
-        <class name="com.Neckermann.Collection_Functionality"/>
-        
-            
-             
+      <!--
+      
+       <class name="com.Neckermann.TestClass.Destination_Functionality"/>
+      <class name="com.Neckermann.TestClass.Travel_Guide_Functionality"/>
+      <class name="com.Neckermann.TestClass.Things_To_do_Functionality"/>
+      <class name="com.Neckermann.TestClass.Footer__Functionality"/>
+      <class name="com.Neckermann.TestClass.Search_Widget_Functionality"/>
+      <class name="com.Neckermann.TestClass.Collection_Functionality"/> -->
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

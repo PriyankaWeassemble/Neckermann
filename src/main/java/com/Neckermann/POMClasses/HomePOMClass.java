@@ -92,7 +92,7 @@ public class HomePOMClass {
 	@FindBy(xpath = "//div[@class='header_menuItemContainer__03kc9']/button")
 	private List<WebElement> menufromhamburgerm;
 
-	public void clickonmenufromhamburgerm(String x) {
+	public void clickonmenufromhamburgermenu(String x) {
 		for (int i = 0; i < menufromhamburgerm.size(); i++) {
 			if (menufromhamburgerm.get(i).getText().contains(x)) {
 				menufromhamburgerm.get(i).click();
@@ -269,6 +269,52 @@ public class HomePOMClass {
 		return y;
 	}
 
+	//Elements for verifying the text on the trust cards
+	
+	//Heading
+	
+	@FindBy(xpath = "//h2[text()='Why book with']\r\n")
+	private WebElement trustcardheading;
+
+	public String getTextfromtrustcardheading() {
+		String y = trustcardheading.getText();
+		return y;
+	}
+	
+	//1st logo
+			@FindBy(xpath = "(//span[text()='30+ years of experience'])[1]")
+			private WebElement firststlogo;
+			
+			public String getTextfromfirststlogo() {
+				String y = firststlogo.getText();
+				return y;
+			}
+   //2nd logo
+			@FindBy(xpath = "(//span[text()='Huge range of handpicked hotels'])[1]")
+			private WebElement secondlogo;
+			
+			public String getTextfromsecondlogo() {
+				String y = secondlogo.getText();
+				return y;
+			}
+   //3rd logo
+			@FindBy(xpath = "(//span[text()='Real-time search'])[1]")
+			private WebElement thirdlogo;
+			
+			public String getTextfromthirdlogo() {
+				String y = thirdlogo.getText();
+				return y;
+			}
+   //4th logo
+			@FindBy(xpath = "(//span[text()='Full Financial Protection'])[1]")
+			private WebElement fourthlogo;
+			
+			public String getTextfromfourthlogo() {
+				String y = fourthlogo.getText();
+				return y;
+			}
+	
+	
 	// *****************Review on the home page************************//
 
 	@FindBy(xpath = "//section[@class='ourReviews_section__86ndH']")
@@ -458,7 +504,7 @@ public class HomePOMClass {
 	// Holidays sub-menu from the
 	// footer(Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary
 	// islands)
-	@FindBy(xpath = "//div[@class='header_subMenuContainer__RUh3T']/div/a")
+	@FindBy(xpath ="//div[3]//ul[1]/li")
 	private List<WebElement> holidaytbsubmenusfromfooterelection;
 
 	public void clickonholidaytbsubmenusfromfooterelection(String y) {
@@ -534,6 +580,43 @@ public class HomePOMClass {
 		cookiepolicyfromfooter.click();
 	}
 
+	//Address from the footer
+	@FindBy(xpath = "//p[text()='Neckermann Travel']")
+	private WebElement firstlineofaddress;
+
+	public String gettextfromfirstlineofaddress() {
+		String a = footercontent.getText();
+		return a;}
+	
+
+	@FindBy(xpath = "//p[text()='1st Floor, Brunswick House']")
+	private WebElement secondlineofaddress;
+
+	public String gettextfromsecondlineofaddress() {
+		String a = secondlineofaddress.getText();
+		return a;}
+	
+	
+	@FindBy(xpath = "//p[text()='Regent Park, 297 Kingston Road']")
+	private WebElement thirdlineofaddress;
+
+	public String gettextfromthirdlineofaddress() {
+		String a = thirdlineofaddress.getText();
+		return a;}
+	
+	
+	@FindBy(xpath = "//p[text()='Leatherhead, Surrey. KT22 7LU']")
+	private WebElement fourthlineofaddress;
+
+	public String gettextfromfourthlineofaddress() {
+		String a = fourthlineofaddress.getText();
+		return a;}
+	
+	
+	
+	
+	
+	
 	// *******************************************
 
 	// Social media from the footer
@@ -618,6 +701,7 @@ public class HomePOMClass {
 		String a = textondestinationhomepagelement.getText();
 		return a;
 	}
+	
 	// destination element
 
 	@FindBy(xpath = "//div[@class='destination-input_popperContainer__qsspL']")
@@ -628,12 +712,12 @@ public class HomePOMClass {
 	}
 
 //				
-	// select "Larnaca" from detination(cyprus)
-	@FindBy(xpath = "//option[text()='Larnaca']")
+	// select "Ibiza" from detination(cyprus)
+	@FindBy(xpath = "//option[text()='Ibiza']")
 	private WebElement selectdestination;
 
 	public void clickonselectdestination() {
-		act.click(selectdestination);
+		selectdestination.click();
 
 //					act.sendKeys(Keys.ARROW_UP).sendKeys(Keys.ARROW_UP).perform();
 //					act.sendKeys(Keys.ENTER).perform();
