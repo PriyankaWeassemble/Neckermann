@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-04T16:43:25 IST" name="Default suite" finished-at="2023-07-04T16:43:38 IST" duration-ms="12973">
+  <suite started-at="2023-07-04T17:42:01 IST" name="Default suite" finished-at="2023-07-04T17:42:13 IST" duration-ms="11668">
     <groups>
     </groups>
-    <test started-at="2023-07-04T16:43:25 IST" name="Default test" finished-at="2023-07-04T16:43:38 IST" duration-ms="12973">
-      <class name="com.Neckermann.TestClass.Collection_Functionality">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Collection_Functionality@c88a337]" started-at="2023-07-04T16:43:25 IST" name="setUp" finished-at="2023-07-04T16:43:29 IST" duration-ms="4390" status="PASS">
+    <test started-at="2023-07-04T17:42:01 IST" name="Default test" finished-at="2023-07-04T17:42:13 IST" duration-ms="11668">
+      <class name="com.Neckermann.TestClass.Verify_view_button_Functionality_on_Destination_Page">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Verify_view_button_Functionality_on_Destination_Page@c88a337]" started-at="2023-07-04T17:42:01 IST" name="setUp" finished-at="2023-07-04T17:42:05 IST" duration-ms="4145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Readmore_Readless_functionality()[pri:0, instance:com.Neckermann.TestClass.Collection_Functionality@c88a337]" started-at="2023-07-04T16:43:29 IST" name="Readmore_Readless_functionality" finished-at="2023-07-04T16:43:38 IST" duration-ms="8307" status="PASS">
+        <test-method signature="view_button_Functionality()[pri:0, instance:com.Neckermann.TestClass.Verify_view_button_Functionality_on_Destination_Page@c88a337]" started-at="2023-07-04T17:42:05 IST" name="view_button_Functionality" finished-at="2023-07-04T17:42:12 IST" duration-ms="7245" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Readmore_Readless_functionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Collection_Functionality@c88a337]" started-at="2023-07-04T16:43:38 IST" name="tearDown" finished-at="2023-07-04T16:43:38 IST" duration-ms="249" status="PASS">
+        </test-method> <!-- view_button_Functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Verify_view_button_Functionality_on_Destination_Page@c88a337]" started-at="2023-07-04T17:42:12 IST" name="tearDown" finished-at="2023-07-04T17:42:13 IST" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Neckermann.TestClass.Collection_Functionality -->
+      </class> <!-- com.Neckermann.TestClass.Verify_view_button_Functionality_on_Destination_Page -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

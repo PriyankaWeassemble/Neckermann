@@ -6,23 +6,21 @@ import org.testng.annotations.Test;
 
 import com.Neckermann.POMClasses.HomePOMClass;
 
-public class Destinations_HomePage_functioanlity extends TestBaseClass {
+public class Verify_Whether_UserClickon_Destination_From_HomePage extends TestBaseClass {
 	@Test
 	public void Destinations_HomePage_functioanlity() throws InterruptedException {
-		String expectedTitle = "Neckermann Travel | Home Page";
-		String actualTitle = driver.getTitle();
-		Assert.assertEquals(actualTitle, expectedTitle);
-		log.info("Home page is open");
-
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+			JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scroll(0,1900)");
 		Thread.sleep(1000);
-
+//		ScreenshotClass.takeScreenshot(driver,"Homepage");
+		
 		// Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands
 		HomePOMClass hm = new HomePOMClass(driver);
 		hm.clickonalldestinationsfromhomepage("Egypt");
 		Thread.sleep(500);
-		log.info("click the destination Egypt from the home page");
+//		ScreenshotClass.takeScreenshot(driver,"Destiantion");
+		//assertion
+		log.info("click the destination from the home page");
 
 	}
 
