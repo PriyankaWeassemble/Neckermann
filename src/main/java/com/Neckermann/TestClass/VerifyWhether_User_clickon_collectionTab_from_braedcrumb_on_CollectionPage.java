@@ -6,6 +6,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.Neckermann.POMClasses.CollectionPOMClass;
@@ -13,15 +14,15 @@ import com.Neckermann.POMClasses.HomePOMClass;
 
 public class VerifyWhether_User_clickon_collectionTab_from_braedcrumb_on_CollectionPage extends TestBaseClass{
 	// 2. click on collections from breadcrumb
-		@Test
-		public void clickon_collections_from_braedcrumb() throws IOException, InterruptedException {
+		@Test(dataProvider="getData")
+		public void clickon_collections_from_braedcrumb(String collection) throws IOException, InterruptedException {
 
 			HomePOMClass hm = new HomePOMClass(driver);
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.scroll(0,2900)");
 			Thread.sleep(2000);
 
-			hm.clickonparticularcollection();
+			hm.clickonallcollections(collection);
 			Thread.sleep(2000);
 //			ScreenshotClass.takeScreenshot(driver,"Particularcollection");
 			// assertion
@@ -41,6 +42,25 @@ public class VerifyWhether_User_clickon_collectionTab_from_braedcrumb_on_Collect
 			log.info("click on the collection tab from breadcrumb on the collection");
 
 		}
+		@DataProvider
+		public Object[][] getData()
+		{
+			Object[][] data=new Object[6][1];
+			
+			data[0][0]="Luxury";
+			
+			data[1][0]="Golf and Sports";
+			
+			data[2][0]="Family Getaway";
+			
+			data[3][0]="City Breaks";
+			
+			data[4][0]="All Inclusive";
+			
+			data[5][0]="Adults Only";
+			
+			return data;
+		}	
 
 	
 }

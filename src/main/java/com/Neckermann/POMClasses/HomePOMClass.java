@@ -184,7 +184,7 @@ public class HomePOMClass {
 
 	// click on the collection from home page just change the index from 1 to 6
 
-	@FindBy(xpath = "	(//div[@class='collections_img_container__6GYSN']/a)[1]") // -->from 1 to 6 sequencelly
+	@FindBy(xpath = "(//div[@class='collections_img_container__6GYSN']/a)[1]") // -->from 1 to 6 sequencelly
 																					// collections(Luxury,Golf and
 																					// Sports,Family Getaway,City
 																					// Breaks,All Inclusive,Adults Only)
@@ -196,7 +196,7 @@ public class HomePOMClass {
 
 	// select collections(Luxury,Golf and Sports,Family Getaway,City Breaks,All
 	// Inclusive,Adults Only)
-	@FindBy(xpath = "//div[@class='collections_section_gallery__9zoMT collections_desktop__MBlWZ']/div/div[2]/span")
+	@FindBy(xpath = "//div[@class='collections_img_container__6GYSN']")
 	private List<WebElement> allcollections;
 
 	public void clickonallcollections(String c) {

@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.Neckermann.POMClasses.CollectionPOMClass;
@@ -13,8 +14,8 @@ public class Visibility_Of_difrentComponent_on_Collection_Page extends TestBaseC
 	// 1. Visiblity of collection on home and in collection page -->header,Serach
 		// widget,footer,Newsletter
 
-		@Test
-		public void Homepage_collection_visibilityofcomponents() throws IOException, InterruptedException {
+		@Test(dataProvider="getData")
+		public void Homepage_collection_visibilityofcomponents( String collection) throws IOException, InterruptedException {
 			
 			HomePOMClass hm = new HomePOMClass(driver);
 
@@ -28,7 +29,7 @@ public class Visibility_Of_difrentComponent_on_Collection_Page extends TestBaseC
 			log.info("collection component is visible on the destination");
 //			ScreenshotClass.takeScreenshot(driver,"collection_on_Homepage");
 			
-			hm.clickonparticularcollection();
+			hm.clickonallcollections(collection);
 			Thread.sleep(4000);
 			// assertion
 //			ScreenshotClass.takeScreenshot(driver,"Collection_Page");
@@ -62,6 +63,27 @@ public class Visibility_Of_difrentComponent_on_Collection_Page extends TestBaseC
 			log.info("Test case is Pass");
 
 		}
+		@DataProvider
+		public Object[][] getData()
+		{
+			Object[][] data=new Object[6][1];
+			
+			data[0][0]="Luxury";
+			
+			data[1][0]="Golf and Sports";
+			
+			data[2][0]="Family Getaway";
+			
+			data[3][0]="City Breaks";
+			
+			data[4][0]="All Inclusive";
+			
+			data[5][0]="Adults Only";
+			
+			return data;
+			
+			
+		}	
 
 
 }

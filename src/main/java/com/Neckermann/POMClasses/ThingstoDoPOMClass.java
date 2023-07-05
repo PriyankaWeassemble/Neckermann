@@ -79,9 +79,10 @@ public class ThingstoDoPOMClass {
 	@FindBy(xpath = "//div[@class='thingsToDoDetail_tdd_content_container__yiNPi']/ol/li")
 	private List<WebElement> submenusfromdestination;
 
-	public void clickAllclickonsubmenusfromdestination() throws IOException, InterruptedException {
+	public void clickonsubmenusfromdestination() throws IOException, InterruptedException {
 		for (int i = 0; i < submenusfromdestination.size(); i++) {
 			submenusfromdestination.get(i).click();
+//			ScreenshotClass.takeScreenshot(driver,"Contentclickimages");
 			Thread.sleep(2000);
 
 		}
@@ -154,6 +155,7 @@ public class ThingstoDoPOMClass {
 	public void clickonallindividualblog() throws InterruptedException {
 		for (int i = 0; i < allindividualblog.size(); i++) {
 			allindividualblog.get(i).click();
+//			ScreenshotClass.takeScreenshot(driver,"individualblogs");
 			Thread.sleep(1000);
 			driver.navigate().back();
 			Thread.sleep(1000);

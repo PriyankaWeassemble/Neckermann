@@ -1,7 +1,10 @@
 package com.Neckermann.TestClass;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
@@ -13,89 +16,11 @@ import com.Neckermann.POMClasses.TravelGuidePOMClass;
 
 public class Travel_Guide_Functionality extends TestBaseClass {
 
-	// 1. click on tourist information link
-	@Test(enabled = false)
-	public void tourist_informationlink_Functionality() throws InterruptedException {
-		String expectedTitle = "Neckermann Travel | Home Page";
-		String actualTitle = driver.getTitle();
-		Assert.assertEquals(actualTitle, expectedTitle);
-		log.info("Home page is open");
-
-		HomePOMClass hm = new HomePOMClass(driver);
-
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scroll(0,1800)");
-		Thread.sleep(2000);
-
-		// (Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands)
-		hm.clickonalldestinationsfromhomepage("Egypt");
-		Thread.sleep(2000);
-
-		DestinationsPOMClass dm = new DestinationsPOMClass(driver);
-		dm.clickonsubmenusfromdestination("Travel guide");
-		log.info("click on the Travel guide tab");
-		Thread.sleep(500);
-
-		js.executeScript("window.scroll(0,900)");
-		Thread.sleep(2000);
-
-		TravelGuidePOMClass trm = new TravelGuidePOMClass(driver);
-		trm.clickontourist_information_link();
-
-		List<String> allpageaddress = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(allpageaddress.get(1));
-		String expectedTitle1 = "Egyptian Tourism Authority";
-		String actualTitle1 = driver.getTitle();
-		Assert.assertEquals(actualTitle1, expectedTitle1);
-		log.info("Egyptian Tourism Authority link is open");
-
-	}
-
-	// 2. click on visa health link--->*****ADD ASSERTIONS FOR PAGE
-	@Test(enabled = false)
-	public void visa_healthlink_Functionality() throws InterruptedException {
-		String expectedTitle = "Neckermann Travel | Home Page";
-		String actualTitle = driver.getTitle();
-		Assert.assertEquals(actualTitle, expectedTitle);
-		log.info("Home page is open");
-
-		HomePOMClass hm = new HomePOMClass(driver);
-
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scroll(0,1800)");
-		Thread.sleep(2000);
-
-		// (Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands)
-		hm.clickonalldestinationsfromhomepage("Egypt");
-		Thread.sleep(2000);
-
-		DestinationsPOMClass dm = new DestinationsPOMClass(driver);
-		dm.clickonsubmenusfromdestination("Travel guide");
-		log.info("click on the Travel guide tab");
-		Thread.sleep(500);
-
-		js.executeScript("window.scroll(0,900)");
-		Thread.sleep(2000);
-
-		TravelGuidePOMClass trm = new TravelGuidePOMClass(driver);
-		trm.clickonvisa_health_link();
-
-		List<String> allpageaddress = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(allpageaddress.get(1));
-		String expectedTitle1 = "Egypt travel advice - GOV.UK";
-		String actualTitle1 = driver.getTitle();
-		Assert.assertEquals(actualTitle1, expectedTitle1);
-		log.info("Egypt travel advice - GOV.UK link is open");
-
-	}
+	
 
 	// 3. click on more travel guide
 	@Test(enabled = false)
 	public void more_travel_guide_Functionality() throws InterruptedException {
-		String expectedTitle = "Neckermann Travel | Home Page";
-		String actualTitle = driver.getTitle();
-		Assert.assertEquals(actualTitle, expectedTitle);
-		log.info("Home page is open");
 
 		HomePOMClass hm = new HomePOMClass(driver);
 
@@ -119,6 +44,7 @@ public class Travel_Guide_Functionality extends TestBaseClass {
 		// Emirates, Turkey, Egypt]
 		TravelGuidePOMClass trm = new TravelGuidePOMClass(driver);
 		trm.clickonallmorelinks("Cyprus");
+//		ScreenshotClass.takeScreenshot(driver,"morelinkontravelguide");
 		// assertion needed
 		List<String> allpageaddress = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(allpageaddress.get(1));
@@ -180,44 +106,7 @@ public class Travel_Guide_Functionality extends TestBaseClass {
 
 	}
 
-	// 4. FCDO link click
-
-	@Test(enabled = false)
-	public void FCDO_link_Functionality() throws InterruptedException {
-		String expectedTitle = "Neckermann Travel | Home Page";
-		String actualTitle = driver.getTitle();
-		Assert.assertEquals(actualTitle, expectedTitle);
-		log.info("Home page is open");
-
-		HomePOMClass hm = new HomePOMClass(driver);
-
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scroll(0,1800)");
-		Thread.sleep(2000);
-
-		// (Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands)
-		hm.clickonalldestinationsfromhomepage("Egypt");
-		Thread.sleep(2000);
-
-		DestinationsPOMClass dm = new DestinationsPOMClass(driver);
-		dm.clickonsubmenusfromdestination("Travel guide");
-		log.info("click on the Travel guide tab");
-		Thread.sleep(500);
-
-		js.executeScript("window.scroll(0,2600)");
-		Thread.sleep(2000);
-
-		TravelGuidePOMClass trm = new TravelGuidePOMClass(driver);
-		trm.Click_FCDO_link();
-
-		List<String> allpageaddress = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(allpageaddress.get(1));
-		String expectedTitle1 = "Foreign, Commonwealth & Development Office - GOV.UK";
-		String actualTitle1 = driver.getTitle();
-		Assert.assertEquals(actualTitle1, expectedTitle1);
-		log.info("FCDO link is open");
-
-	}
+	
 
 //	click on the more travel guides
 //	your guides to Egypt-->food & drinks, Beachses, We love, At a glance
