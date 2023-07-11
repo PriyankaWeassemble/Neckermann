@@ -1,127 +1,499 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="2" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-05T17:23:18 IST" name="Default suite" finished-at="2023-07-05T17:24:06 IST" duration-ms="47969">
+  <suite started-at="2023-07-11T16:24:25 IST" name="Version2AutomationTesting" finished-at="2023-07-11T16:25:20 IST" duration-ms="55311">
     <groups>
     </groups>
-    <test started-at="2023-07-05T17:23:18 IST" name="Default test" finished-at="2023-07-05T17:24:06 IST" duration-ms="47969">
-      <class name="com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:18 IST" name="setUp" finished-at="2023-07-05T17:23:23 IST" duration-ms="4636" status="PASS">
+    <test started-at="2023-07-11T16:24:25 IST" name="Test" finished-at="2023-07-11T16:25:20 IST" duration-ms="55311">
+      <class name="com.Neckermann.TestClass.VerifyWhether_footerCivilaviationLink_linkOpen_fromFooter">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_footerCivilaviationLink_linkOpen_fromFooter@4f80542f]" started-at="2023-07-11T16:24:47 IST" name="setUp" finished-at="2023-07-11T16:24:50 IST" duration-ms="2959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Destination_searchwidget_Breadcrumb_moredestination_visibility(java.lang.String)[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:23 IST" name="Destination_searchwidget_Breadcrumb_moredestination_visibility" data-provider="getData" finished-at="2023-07-05T17:23:27 IST" duration-ms="4349" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Egypt]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Footer_footerCivilaviationLink_Functionality()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_footerCivilaviationLink_linkOpen_fromFooter@4f80542f]" started-at="2023-07-11T16:24:50 IST" name="Footer_footerCivilaviationLink_Functionality" finished-at="2023-07-11T16:24:54 IST" duration-ms="4116" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (618, 2161)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64320be3c567eba9f604a84e20d652cf, clickElement {id=E6FFCAEA3CDD0080EDE7927626BD3AE6_element_237}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\PRIYAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56848}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56848/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (64320be3c567eba9f604a84e20d652cf)] -> xpath: //a[text()='Civil Aviation Authority']]
+Session ID: 64320be3c567eba9f604a84e20d652cf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (618, 2161)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64320be3c567eba9f604a84e20d652cf, clickElement {id=E6FFCAEA3CDD0080EDE7927626BD3AE6_element_237}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\PRIYAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56848}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56848/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (64320be3c567eba9f604a84e20d652cf)] -> xpath: //a[text()='Civil Aviation Authority']]
+Session ID: 64320be3c567eba9f604a84e20d652cf
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at com.Neckermann.POMClasses.HomePOMClass.clcikoncivilaviationlinkfromfootercontent(HomePOMClass.java:670)
+at com.Neckermann.TestClass.VerifyWhether_footerCivilaviationLink_linkOpen_fromFooter.Footer_footerCivilaviationLink_Functionality(VerifyWhether_footerCivilaviationLink_linkOpen_fromFooter.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Destination_searchwidget_Breadcrumb_moredestination_visibility -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:27 IST" name="tearDown" finished-at="2023-07-05T17:23:28 IST" duration-ms="372" status="PASS">
+        </test-method> <!-- Footer_footerCivilaviationLink_Functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_footerCivilaviationLink_linkOpen_fromFooter@4f80542f]" started-at="2023-07-11T16:24:54 IST" name="tearDown" finished-at="2023-07-11T16:24:54 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:28 IST" name="setUp" finished-at="2023-07-05T17:23:31 IST" duration-ms="3152" status="PASS">
+      </class> <!-- com.Neckermann.TestClass.VerifyWhether_footerCivilaviationLink_linkOpen_fromFooter -->
+      <class name="com.Neckermann.TestClass.Verify_The_Footer_address">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Verify_The_Footer_address@5a45133e]" started-at="2023-07-11T16:24:33 IST" name="setUp" finished-at="2023-07-11T16:24:37 IST" duration-ms="3442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Destination_searchwidget_Breadcrumb_moredestination_visibility(java.lang.String)[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:31 IST" name="Destination_searchwidget_Breadcrumb_moredestination_visibility" data-provider="getData" finished-at="2023-07-05T17:23:35 IST" duration-ms="4441" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Cyprus]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Footer_address_Functionality()[pri:0, instance:com.Neckermann.TestClass.Verify_The_Footer_address@5a45133e]" started-at="2023-07-11T16:24:37 IST" name="Footer_address_Functionality" finished-at="2023-07-11T16:24:40 IST" duration-ms="3107" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Neckermann Travel] but found [When you book a holiday which includes a flight, a flight inclusive holiday, through Neckermann Travel you are financially protected by the ATOL scheme. When you pay you will be supplied with an ATOL Certificate. Please ask for it and check to ensure that everything you booked (flights, hotels and other services) is listed on it. Please see our booking conditions for further information or for more information about financial protection and the ATOL Certificate go to the Civil Aviation Authority]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Neckermann Travel] but found [When you book a holiday which includes a flight, a flight inclusive holiday, through Neckermann Travel you are financially protected by the ATOL scheme. When you pay you will be supplied with an ATOL Certificate. Please ask for it and check to ensure that everything you booked (flights, hotels and other services) is listed on it. Please see our booking conditions for further information or for more information about financial protection and the ATOL Certificate go to the Civil Aviation Authority]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.Neckermann.TestClass.Verify_The_Footer_address.Footer_address_Functionality(Verify_The_Footer_address.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Destination_searchwidget_Breadcrumb_moredestination_visibility -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:35 IST" name="tearDown" finished-at="2023-07-05T17:23:35 IST" duration-ms="247" status="PASS">
+        </test-method> <!-- Footer_address_Functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Verify_The_Footer_address@5a45133e]" started-at="2023-07-11T16:24:40 IST" name="tearDown" finished-at="2023-07-11T16:24:40 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:35 IST" name="setUp" finished-at="2023-07-05T17:23:38 IST" duration-ms="2705" status="PASS">
+      </class> <!-- com.Neckermann.TestClass.Verify_The_Footer_address -->
+      <class name="com.Neckermann.TestClass.Verify_submenus_from_The_Footer_Holidays_Functionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Verify_submenus_from_The_Footer_Holidays_Functionality@130c12b7]" started-at="2023-07-11T16:25:08 IST" name="setUp" finished-at="2023-07-11T16:25:11 IST" duration-ms="3117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Destination_searchwidget_Breadcrumb_moredestination_visibility(java.lang.String)[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:38 IST" name="Destination_searchwidget_Breadcrumb_moredestination_visibility" data-provider="getData" finished-at="2023-07-05T17:23:43 IST" duration-ms="4512" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Greece]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Footer_Holidays_Functionality()[pri:0, instance:com.Neckermann.TestClass.Verify_submenus_from_The_Footer_Holidays_Functionality@130c12b7]" started-at="2023-07-11T16:25:11 IST" name="Footer_Holidays_Functionality" finished-at="2023-07-11T16:25:14 IST" duration-ms="2777" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (1194, 1755)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5dfc82483913cf2d312a256c088228c8, clickElement {id=6B89149D74087F1A453691AD75517297_element_341}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\PRIYAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56968}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56968/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5dfc82483913cf2d312a256c088228c8)] -> xpath: //div[3]//ul[1]/li]
+Session ID: 5dfc82483913cf2d312a256c088228c8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1194, 1755)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5dfc82483913cf2d312a256c088228c8, clickElement {id=6B89149D74087F1A453691AD75517297_element_341}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\PRIYAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56968}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56968/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5dfc82483913cf2d312a256c088228c8)] -> xpath: //div[3]//ul[1]/li]
+Session ID: 5dfc82483913cf2d312a256c088228c8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at com.Neckermann.POMClasses.HomePOMClass.clickonholidaytbsubmenusfromfooterelection(HomePOMClass.java:513)
+at com.Neckermann.TestClass.Verify_submenus_from_The_Footer_Holidays_Functionality.Footer_Holidays_Functionality(Verify_submenus_from_The_Footer_Holidays_Functionality.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Destination_searchwidget_Breadcrumb_moredestination_visibility -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:43 IST" name="tearDown" finished-at="2023-07-05T17:23:43 IST" duration-ms="376" status="PASS">
+        </test-method> <!-- Footer_Holidays_Functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Verify_submenus_from_The_Footer_Holidays_Functionality@130c12b7]" started-at="2023-07-11T16:25:14 IST" name="tearDown" finished-at="2023-07-11T16:25:14 IST" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:43 IST" name="setUp" finished-at="2023-07-05T17:23:46 IST" duration-ms="2942" status="PASS">
+      </class> <!-- com.Neckermann.TestClass.Verify_submenus_from_The_Footer_Holidays_Functionality -->
+      <class name="com.Neckermann.TestClass.VerifyWhether_the_footerCivilaviationLink_Opens_fromThe_Footer">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_the_footerCivilaviationLink_Opens_fromThe_Footer@60bd273d]" started-at="2023-07-11T16:24:54 IST" name="setUp" finished-at="2023-07-11T16:24:57 IST" duration-ms="2882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Destination_searchwidget_Breadcrumb_moredestination_visibility(java.lang.String)[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:46 IST" name="Destination_searchwidget_Breadcrumb_moredestination_visibility" data-provider="getData" finished-at="2023-07-05T17:23:50 IST" duration-ms="4467" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Turkey]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Footer_footercontent_Functionality()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_the_footerCivilaviationLink_Opens_fromThe_Footer@60bd273d]" started-at="2023-07-11T16:24:57 IST" name="Footer_footercontent_Functionality" finished-at="2023-07-11T16:25:00 IST" duration-ms="3097" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [null] but found [When you book a holiday which includes a flight, a flight inclusive holiday, through Neckermann Travel you are financially protected by the ATOL scheme. When you pay you will be supplied with an ATOL Certificate. Please ask for it and check to ensure that everything you booked (flights, hotels and other services) is listed on it. Please see our booking conditions for further information or for more information about financial protection and the ATOL Certificate go to the Civil Aviation Authority]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [null] but found [When you book a holiday which includes a flight, a flight inclusive holiday, through Neckermann Travel you are financially protected by the ATOL scheme. When you pay you will be supplied with an ATOL Certificate. Please ask for it and check to ensure that everything you booked (flights, hotels and other services) is listed on it. Please see our booking conditions for further information or for more information about financial protection and the ATOL Certificate go to the Civil Aviation Authority]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.Neckermann.TestClass.VerifyWhether_the_footerCivilaviationLink_Opens_fromThe_Footer.Footer_footercontent_Functionality(VerifyWhether_the_footerCivilaviationLink_Opens_fromThe_Footer.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Destination_searchwidget_Breadcrumb_moredestination_visibility -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:50 IST" name="tearDown" finished-at="2023-07-05T17:23:51 IST" duration-ms="303" status="PASS">
+        </test-method> <!-- Footer_footercontent_Functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_the_footerCivilaviationLink_Opens_fromThe_Footer@60bd273d]" started-at="2023-07-11T16:25:00 IST" name="tearDown" finished-at="2023-07-11T16:25:00 IST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:51 IST" name="setUp" finished-at="2023-07-05T17:23:53 IST" duration-ms="2687" status="PASS">
+      </class> <!-- com.Neckermann.TestClass.VerifyWhether_the_footerCivilaviationLink_Opens_fromThe_Footer -->
+      <class name="com.Neckermann.TestClass.Veify_The_logo_click_functionality_fromthe_Footer">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Veify_The_logo_click_functionality_fromthe_Footer@534a5a98]" started-at="2023-07-11T16:24:40 IST" name="setUp" finished-at="2023-07-11T16:24:43 IST" duration-ms="3076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Destination_searchwidget_Breadcrumb_moredestination_visibility(java.lang.String)[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:53 IST" name="Destination_searchwidget_Breadcrumb_moredestination_visibility" data-provider="getData" finished-at="2023-07-05T17:23:58 IST" duration-ms="4639" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[UAE]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Footer_logo_visiblityand_click_Functionality()[pri:0, instance:com.Neckermann.TestClass.Veify_The_logo_click_functionality_fromthe_Footer@534a5a98]" started-at="2023-07-11T16:24:43 IST" name="Footer_logo_visiblityand_click_Functionality" finished-at="2023-07-11T16:24:47 IST" duration-ms="3720" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Destination_searchwidget_Breadcrumb_moredestination_visibility -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:58 IST" name="tearDown" finished-at="2023-07-05T17:23:58 IST" duration-ms="218" status="PASS">
+        </test-method> <!-- Footer_logo_visiblityand_click_Functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Veify_The_logo_click_functionality_fromthe_Footer@534a5a98]" started-at="2023-07-11T16:24:47 IST" name="tearDown" finished-at="2023-07-11T16:24:47 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:23:58 IST" name="setUp" finished-at="2023-07-05T17:24:01 IST" duration-ms="2684" status="PASS">
+      </class> <!-- com.Neckermann.TestClass.Veify_The_logo_click_functionality_fromthe_Footer -->
+      <class name="com.Neckermann.TestClass.VerifyWhether_Footer_isVisible_onthe_HomePage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_Footer_isVisible_onthe_HomePage@3a44431a]" started-at="2023-07-11T16:24:25 IST" name="setUp" finished-at="2023-07-11T16:24:31 IST" duration-ms="5931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Destination_searchwidget_Breadcrumb_moredestination_visibility(java.lang.String)[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:24:01 IST" name="Destination_searchwidget_Breadcrumb_moredestination_visibility" data-provider="getData" finished-at="2023-07-05T17:24:06 IST" duration-ms="4882" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Spain]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Footer_container_visiblity_Functionality1()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_Footer_isVisible_onthe_HomePage@3a44431a]" started-at="2023-07-11T16:24:31 IST" name="Footer_container_visiblity_Functionality1" finished-at="2023-07-11T16:24:33 IST" duration-ms="2105" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Destination_searchwidget_Breadcrumb_moredestination_visibility -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations@53ce1329]" started-at="2023-07-05T17:24:06 IST" name="tearDown" finished-at="2023-07-05T17:24:06 IST" duration-ms="298" status="PASS">
+        </test-method> <!-- Footer_container_visiblity_Functionality1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.VerifyWhether_Footer_isVisible_onthe_HomePage@3a44431a]" started-at="2023-07-11T16:24:33 IST" name="tearDown" finished-at="2023-07-11T16:24:33 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.Neckermann.TestClass.VerifyWhether_Footer_isVisible_onthe_HomePage -->
+      <class name="com.Neckermann.TestClass.Verify_The_Submenus_FromThe_Company_Menu_From_TheFooter">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Verify_The_Submenus_FromThe_Company_Menu_From_TheFooter@121314f7]" started-at="2023-07-11T16:25:00 IST" name="setUp" finished-at="2023-07-11T16:25:04 IST" duration-ms="3209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Footer_company_Functionality()[pri:0, instance:com.Neckermann.TestClass.Verify_The_Submenus_FromThe_Company_Menu_From_TheFooter@121314f7]" started-at="2023-07-11T16:25:04 IST" name="Footer_company_Functionality" finished-at="2023-07-11T16:25:08 IST" duration-ms="4196" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (857, 1747)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e695f25e0b2db4f41795a5741509b492, clickElement {id=FE4AE7E382393463333A619508660C59_element_203}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\PRIYAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56929}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56929/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e695f25e0b2db4f41795a5741509b492)] -> xpath: //a[text()='About us']]
+Session ID: e695f25e0b2db4f41795a5741509b492]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (857, 1747)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e695f25e0b2db4f41795a5741509b492, clickElement {id=FE4AE7E382393463333A619508660C59_element_203}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\PRIYAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56929}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56929/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e695f25e0b2db4f41795a5741509b492)] -> xpath: //a[text()='About us']]
+Session ID: e695f25e0b2db4f41795a5741509b492
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at com.Neckermann.POMClasses.HomePOMClass.clickonaboutusfromfooter(HomePOMClass.java:540)
+at com.Neckermann.TestClass.Verify_The_Submenus_FromThe_Company_Menu_From_TheFooter.Footer_company_Functionality(Verify_The_Submenus_FromThe_Company_Menu_From_TheFooter.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_company_Functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Verify_The_Submenus_FromThe_Company_Menu_From_TheFooter@121314f7]" started-at="2023-07-11T16:25:08 IST" name="tearDown" finished-at="2023-07-11T16:25:08 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Neckermann.TestClass.Verify_The_Submenus_FromThe_Company_Menu_From_TheFooter -->
+      <class name="com.Neckermann.TestClass.Verify_Submenus_From__Legalmenu_onFooter">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Neckermann.TestClass.Verify_Submenus_From__Legalmenu_onFooter@5d534f5d]" started-at="2023-07-11T16:25:14 IST" name="setUp" finished-at="2023-07-11T16:25:17 IST" duration-ms="3120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Footer_Legal_Functionality()[pri:0, instance:com.Neckermann.TestClass.Verify_Submenus_From__Legalmenu_onFooter@5d534f5d]" started-at="2023-07-11T16:25:17 IST" name="Footer_Legal_Functionality" finished-at="2023-07-11T16:25:20 IST" duration-ms="2730" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (1054, 1756)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc7a6d87cdaadff0171fd464f86cbd67, clickElement {id=B0E265D952A9AE8F8BD92A98111A86A9_element_219}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\PRIYAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57005/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (dc7a6d87cdaadff0171fd464f86cbd67)] -> xpath: //div[@class='footer_right_section__YrbQm']/div[2]/ul/li/a]
+Session ID: dc7a6d87cdaadff0171fd464f86cbd67]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1054, 1756)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc7a6d87cdaadff0171fd464f86cbd67, clickElement {id=B0E265D952A9AE8F8BD92A98111A86A9_element_219}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\PRIYAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57005/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (dc7a6d87cdaadff0171fd464f86cbd67)] -> xpath: //div[@class='footer_right_section__YrbQm']/div[2]/ul/li/a]
+Session ID: dc7a6d87cdaadff0171fd464f86cbd67
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at com.Neckermann.POMClasses.HomePOMClass.clickonlegalsubmenufromfooterselection(HomePOMClass.java:498)
+at com.Neckermann.TestClass.Verify_Submenus_From__Legalmenu_onFooter.Footer_Legal_Functionality(Verify_Submenus_From__Legalmenu_onFooter.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer_Legal_Functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Neckermann.TestClass.Verify_Submenus_From__Legalmenu_onFooter@5d534f5d]" started-at="2023-07-11T16:25:20 IST" name="tearDown" finished-at="2023-07-11T16:25:20 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Neckermann.TestClass.Verify_Submenus_From__Legalmenu_onFooter -->
+    </test> <!-- Test -->
+  </suite> <!-- Version2AutomationTesting -->
 </testng-results>

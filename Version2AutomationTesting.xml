@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Version2AutomationTesting">
+  <test thread-count="5" name="Test">
+    <classes>
+		<!-- //Others
+       <class name="com.Neckermann.TestClass.Verify_the_FlashDealsVideo_functionality_onHomePage"/>
+       <class name="com.Neckermann.TestClass.Verify_The_TrustCard_Functionality_onHome_Page"/>
+       <class name="com.Neckermann.TestClass.VerfiyThe_Logo_Functionality_On_the_Header"/>
+       <class name="com.Neckermann.TestClass.VerifyWhether_fromthe_aboutusPage_User_clickon_forward_and_BackwardArrow_intheReviewSection"/>
+       <class name="com.Neckermann.TestClass.VerifyThe_Reviews_functionality_on_The_HomePage"/>
+       -->
+		<!-- collection Page
+		<class name="com.Neckermann.TestClass.Visibility_Of_difrentComponent_on_Collection_Page"/>
+		<class name="com.Neckermann.TestClass.Verifywhether_click_on_component_from_more_collection"/>
+		<class name="com.Neckermann.TestClass.Verify_The_title_of_collection_Page"/>
+		<class name="com.Neckermann.TestClass.VerifyWhether_User_clickon_collectionTab_from_braedcrumb_on_CollectionPage"/>
+		<class name="com.Neckermann.TestClass.VerifyWhether_User_clickon_HomeTab_from_braedcrumb_on_CollectionPage"/>
+		<class name="com.Neckermann.TestClass.Verify_whether_User_clickon_ViewMore_button_on_Collection"/>
+		<class name="com.Neckermann.TestClass.Verify_IndividualhotelOpen_After_clicking_ViewButton_OncollectionPage"/>
+		<class name="com.Neckermann.TestClass.Verify_Readmore_Readless_functionality_on_CollectionPage"/>
+        <class name="com.Neckermann.TestClass.Verify_socialmedia_Linkdin_on_Collection"/>
+        <class name="com.Neckermann.TestClass.Verify_socialmedia_instagram_on_Collection"/>
+        <class name="com.Neckermann.TestClass.Verify_socialmedia_twitter_on_Collection"/>
+        <class name="com.Neckermann.TestClass.Verify_socialmedia_facebook_on_Collection"/>
+		-->
+		
+		<!-- Destination page
+		
+		 <class name="com.Neckermann.TestClass.Verify_Whether_UserClickon_Destination_From_HomePage_From_1_to_6"/>
+		 <class name="com.Neckermann.TestClass.Verify_Whether_UserClickon_Destination_From_HomePage_From_7_to_9"/>
+		   <class name="com.Neckermann.TestClass.Verify_Breadcrumb_functionality_on_DestinationPage"/>
+             <class name="com.Neckermann.TestClass.Verify_viewmore_button_On_Destination_Page_For_1_To_6_Destinations"/>
+             <class name="com.Neckermann.TestClass.Verify_viewmore_button_On_Destination_Page_For_7_To_9_Destinations"/>
+		   <class name="com.Neckermann.TestClass.Verify_view_button_Functionality_on_Destination_Page_For_1_To_6_Destinations"/>
+		   <class name="com.Neckermann.TestClass.Verify_view_button_Functionality_on_Destination_Page_For_7_To_9_Destinations"/>
+		   
+		   <class name="com.Neckermann.TestClass.Verify_whether_Userclick_destination_frommoredestination_onDestinationPage_From_1_To_6_Destinations"/>
+		  <class name="com.Neckermann.TestClass.Verify_whether_Userclick_destination_frommoredestination_onDestinationPage_From_7_To_9_Destinations"/>
+		  
+		   <class name="com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_1_To_6_Destinations"/>
+		  <class name="com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_7_To_9_Destinations"/>
+		  
+		  <class name="com.Neckermann.TestClass.Verify_whether_User_click_on_Travel_advicelink_For_1_To_6_Destinations"/>
+		  <class name="com.Neckermann.TestClass.Verify_whether_User_click_on_Travel_advicelink_For_7_To_9_Destinations"/>
+		
+		  <class name="com.Neckermann.TestClass.Verify_socialmedia_twitter_Functionality_OnDestinationPage"/>
+		  <class name="com.Neckermann.TestClass.Verify_socialmedia_Linkdin_Functionality_OnDestinationPage"/>
+		  <class name="com.Neckermann.TestClass.Verify_socialmedia_instagram_Functionality_on_DestinationPage"/>
+          <class name="com.Neckermann.TestClass.Verify_socialmedia_Facebook_Functionality_OnDestinationPage"/>
+         -->
+		
+		
+		<!-- ATOL Protected
+		<class name="com.Neckermann.TestClass.VerifyWhether_clickontrustpilotonfeelthelove_on_ATOLProtected"/>
+		<class name="com.Neckermann.TestClass.Newsletter_and_footer_Visibility_on_ATOLPage"/>
+		<class name="com.Neckermann.TestClass.VerifyWhetherthe_userclickon_ATOLProtectedmore_Link_fromthe_AtolPage"/>
+		<class name="com.Neckermann.TestClass.Verifywhether_user_clickAllthe_Popup_on_ATOLprotecetd"/>
+		<class name="com.Neckermann.TestClass.VerifyWhether_userOpen_contactuslink_fromQualityassured_ATOL_Page"/>
+		<class name="com.Neckermann.TestClass.VerifyWhether_Useropen_termsandconditionlink_fromunbeatableprice_onATOLPage"/>
+		-->
+		
+		<!-- About Us
+		<class name="com.Neckermann.TestClass.VisibilityofNewsletter_and_Footer_On_Aboutus_Page"/>
+		<class name="com.Neckermann.TestClass.VerifyWhether_User_Open_Aboutus_from_Header"/>
+		<class name="com.Neckermann.TestClass.VerifyWhether_Useropens_AboutUs_from_Footer"/>
+		<class name="com.Neckermann.TestClass.VerifyWhether_UserClickson_ContactUs_Button_from_AboutUsPage"/>
+		<class name="com.Neckermann.TestClass.VerifyWhethre_User_clickonthe_Trustpilot_from_Aboutus_page"/>
+		-->
+		
+		<!-- Footer CHECK FOR IT ITS NOT WORKING
+		    <class name="com.Neckermann.TestClass.VerifyWhether_Footer_isVisible_onthe_HomePage"/>
+		    <class name="com.Neckermann.TestClass.Verify_The_Footer_address"/>
+		    <class name="com.Neckermann.TestClass.Veify_The_logo_click_functionality_fromthe_Footer"/>
+		    <class name="com.Neckermann.TestClass.VerifyWhether_footerCivilaviationLink_linkOpen_fromFooter"/>
+		    <class name="com.Neckermann.TestClass.VerifyWhether_the_footerCivilaviationLink_Opens_fromThe_Footer"/>
+		    <class name="com.Neckermann.TestClass.Verify_The_Submenus_FromThe_Company_Menu_From_TheFooter"/>
+            <class name="com.Neckermann.TestClass.Verify_submenus_from_The_Footer_Holidays_Functionality"/>  
+            <class name="com.Neckermann.TestClass.Verify_Submenus_From__Legalmenu_onFooter"/>
+         
+            <class name="com.Neckermann.TestClass.Verify_Footer_SocialMedia_Ticktok_Functionality"/>
+            <class name="com.Neckermann.TestClass.Verify_Footer_SocialMedia_Instagram_Functionality"/>
+            <class name="com.Neckermann.TestClass.Footer_SocialMedia_Facebook_Functionality"/>
+            <class name="com.Neckermann.TestClass.Verify_Footer_SocialMedia_Pininsert_Functiona lity"/>
+		 -->
+		
+		<!-- Things to 
+	 	<class name="com.Neckermann.TestClass.Verify_visibilityof_components_on_Things_to_do_Page"/>
+	 	<class name="com.Neckermann.TestClass.Verify_Thingstodo_PageOpen_On_DestinationPage_For_1_To_6_Destinations"/>
+	 	<class name="com.Neckermann.TestClass.Verify_Thingstodo_PageOpen_On_DestinationPage_For_7_To_9_Destinations"/>
+		<class name="com.Neckermann.TestClass.Verify_whether_User_clickon_SeeAll_button_from_ThingsToDo_Page_For_1_To_6_Destinations"/>
+		<class name="com.Neckermann.TestClass.Verify_whether_User_clickon_SeeAll_button_from_ThingsToDo_Page_For_7_To_9_Destinations"/>
+		<class name="com.Neckermann.TestClass.VerifyWhether_User_clickon_allthe_indivisual_Blog_from_ThingsToDo_Page_For_1_To_6_Destinations"/>
+        <class name="com.Neckermann.TestClass.VerifyWhether_User_clickon_allthe_indivisual_Blog_from_ThingsToDo_Page_For_7_To_9_Destinations"/>
+        
+          <class name="com.Neckermann.TestClass.VerifyWhether_User_clickon_indivisual_Blog_from_ThingsToDo_Page"/>
+      
+           <class name="com.Neckermann.TestClass.Verify_whether_user_clickontheContent_from_ThingsToDo_Page"/>
+      
+           <class name="com.Neckermann.TestClass.Verify_SocialMedia_Twitter_from_ThingsToDo_Page"/>
+           <class name="com.Neckermann.TestClass.Verify_SocialMedia_Instagram_from_ThingsToDo_Page"/>
+           <class name="com.Neckermann.TestClass.Verify_SocialMedia_Facebook_from_ThingsToDo_Page"/>
+           <class name="com.Neckermann.TestClass.Verify_SocialMedia_Linkdin_from_ThingsToDo_Page"/>
+      
+	-->  
+		
+		<!-- Travel guide
+		<class name="com.Neckermann.TestClass.VerifyWhether_User_click_on_View_button_on_Travel_guide_Page_For_7_To_9_Destinations"/>
+		<class name="com.Neckermann.TestClass.Verify_Whether_Travel_guide_FAQ_Min_Max_Functionality_on_TravelGuide_Page_For_1_To_6_Destinations"/>
+		<class name="com.Neckermann.TestClass.Verify_Whether_Travel_guide_FAQ_Min_Max_Functionality_on_TravelGuide_Page_For_7_To_9_Destinations"/>
+        <class name="com.Neckermann.TestClass.Verify_FCDO_link_Functionality_on_TravelGuidePage_For_1_To_6_Destinations"/>
+         <class name="com.Neckermann.TestClass.Verify_TravelGuidePage_Opens_on_DestinationsPage_For_1_To_6_Destinations"/>
+		 <class name="com.Neckermann.TestClass.Verify_TravelGuidePage_Opens_on_DestinationsPage_For_7_To_9_Destinations"/>
+       
+		<class name="com.Neckermann.TestClass.VerifyWhether_User_click_on_View_button_on_Travel_guide_Page_For_1_To_6_Destinations"/>
+        <class name="com.Neckermann.TestClass.Verify_Whether_More_Links_from_The_Travel_GuidePage"/>
+        <class name="com.Neckermann.TestClass.Verify_whether_user_should_Click_Tourist_informationlink_from_TravelGuide_Page_from_1_to_6"/>
+        <class name="com.Neckermann.TestClass.Verify_whether_user_should_Click_Tourist_informationlink_from_TravelGuide_Page_from_7_to_9"/>
+		<class name="com.Neckermann.TestClass.Verify_FCDO_link_Functionality_on_TravelGuidePage_For_7_To_8_Destinations"/>
+		
+		<class name="com.Neckermann.TestClass.Verifywhether_user_should_clickon_yourguide_on_travelGuidePage_For_1_To_6_Destinations"/>
+		<class name="com.Neckermann.TestClass.Verifywhether_user_should_clickon_yourguide_on_travelGuidePage_For_7_To_8_Destinations"/>
+		<class name="com.Neckermann.TestClass.Verifywhether_user_should_clickon_yourguide_on_travelGuidePage_For_9th_Destinations"/>
+		
+		-->
+		<!-- Newsletter
+		<class name="com.Neckermann.TestClass.Verify_AfterpassingNullValue_InNewsletter_visibilityof_enteremailerror_InNewsletter"/>
+		<class name="com.Neckermann.TestClass.VerfiyThe_InvalidEmail_FailureMessage_Visibility_on_Newsletter"/>
+		<class name="com.Neckermann.TestClass.VerifyThe_suscribeNewsletter_successmessage_visibility_OnNeckermann"/>
+		<class name="com.Neckermann.TestClass.VerifyThe_suscribeNewsletter_Failmessage_visibility_OnNeckermann"/>
+		-->
+		<!-- Hamburgermenu
+		<class name="com.Neckermann.TestClass.Verifythe_submenus_fromthe_LegalMenu__From_HamburgerMenu"/>
+      <class name="com.Neckermann.TestClass.VerifyWhether_user_select_contactus_from_hamburgermenu"/>
+      <class name="com.Neckermann.TestClass.Verifythe_submenus_fromthe_HolidayMenu__From_HamburgerMenu"/>
+      <class name="com.Neckermann.TestClass.Verifythe_CompanyMenu_ContactUs_From_HamburgerMenu"/>
+	-->
+   
+      
+      <!-- search widget 
+      <class name="com.Neckermann.TestClass.Search_Widget_Functionality"/>
+         -->
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

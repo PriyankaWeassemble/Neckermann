@@ -14,12 +14,11 @@ import com.Neckermann.POMClasses.DestinationsPOMClass;
 import com.Neckermann.POMClasses.HomePOMClass;
 import com.Neckermann.POMClasses.TravelGuidePOMClass;
 
-public class Travel_Guide_Functionality extends TestBaseClass {
+public class Verify_Whether_More_Links_from_The_Travel_GuidePage extends TestBaseClass {
 
-	
 
-	// 3. click on more travel guide
-	@Test(enabled = false)
+	//  click on more travel guide
+	@Test
 	public void more_travel_guide_Functionality() throws InterruptedException {
 
 		HomePOMClass hm = new HomePOMClass(driver);
@@ -105,13 +104,5 @@ public class Travel_Guide_Functionality extends TestBaseClass {
 		driver.switchTo().window(allpageaddress8.get(9));
 
 	}
-
-	
-
-//	click on the more travel guides
-//	your guides to Egypt-->food & drinks, Beachses, We love, At a glance
-//	FCDO website
-//	View button click
-//	FAQ's
 
 }

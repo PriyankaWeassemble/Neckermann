@@ -64,7 +64,109 @@ public class TravelGuidePOMClass {
 	public void Click_FCDO_link() {
 
 		FCDO_link.click();
-
 	}
+		
+	//FAQ's selection
+	
+	@FindBy(xpath = "//section[@class='accordion_accordion__3bhlH']/div") // 3 to10
+	private List<WebElement> FAQ_min_and_Max;
+
+	public void FAQ_min_and_Max() {
+		for (int i = 0; i < FAQ_min_and_Max.size(); i++) {
+			{
+				FAQ_min_and_Max.get(i).click();
+			
+			}
+		}
+	}
+		
+	@FindBy(xpath = "//a[text()='view']")
+	private List<WebElement> View_button;
+
+	public void clickonView_button() throws InterruptedException {
+		for (int i = 0; i < View_button.size(); i++) {
+			{
+				View_button.get(i).click();
+				Thread.sleep(1000);
+				driver.navigate().back();
+				Thread.sleep(1000);
+				JavascriptExecutor js = (JavascriptExecutor) driver;
+				js.executeScript("window.scroll(0,2900)");
+				Thread.sleep(2000);
+			
+			}
+		}
+	}
+	
+	//your guide to widget
+	
+	@FindBy(xpath = "//li[text()='Food & Drinks']")
+	private WebElement FoodandDrink;
+
+	public void Click_FoodandDrink() {
+
+		FoodandDrink.click();
+	}
+	
+	@FindBy(xpath = "//li[text()='Beaches']")
+	private WebElement Beaches;
+
+	public void Click_Beaches() {
+
+		Beaches.click();
+	}
+	
+	@FindBy(xpath = "//li[text()='We Love']")
+	private WebElement WeLove;
+
+	public void Click_WeLove() {
+
+		WeLove.click();
+	}
+	
+	@FindBy(xpath = "//li[text()='At a Glance']")
+	private WebElement At_a_Glance;
+
+	public void Click_At_a_Glance() {
+
+		At_a_Glance.click();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+	
 
 }

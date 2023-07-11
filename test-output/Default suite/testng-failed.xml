@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_7_To_9_Destinations">
+      <class name="com.Neckermann.TestClass.Verifywhether_user_should_clickon_yourguide_on_travelGuidePage_For_7_To_9_Destinations">
         <methods>
-          <include name="Destination_searchwidget_Breadcrumb_moredestination_visibility" invocation-numbers="0 1 2"/>
           <include name="setUp"/>
+          <include name="Travel_guide_anotherbuttonclick_click" invocation-numbers="2"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Neckermann.TestClass.Verify_searchwidget_Breadcrumb_moredestination_visibility_on_DestinationPage_For_7_To_9_Destinations -->
+      </class> <!-- com.Neckermann.TestClass.Verifywhether_user_should_clickon_yourguide_on_travelGuidePage_For_7_To_9_Destinations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

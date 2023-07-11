@@ -6,16 +6,17 @@ import java.util.Properties;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.Neckermann.POMClasses.DestinationsPOMClass;
 import com.Neckermann.POMClasses.HomePOMClass;
 import com.Neckermann.POMClasses.ThingstoDoPOMClass;
 
-public class Verify_whether_User_clickon_SeeAll_button_from_ThingsToDo_Page extends TestBaseClass {
+public class Verify_whether_User_clickon_SeeAll_button_from_ThingsToDo_Page_For_1_To_6_Destinations extends TestBaseClass {
 	// 7. click on the "see all " button from the things to do page
-		@Test
-		public void clickonseeallbutton_functionality() throws InterruptedException, IOException {
+		@Test(dataProvider="getData")
+		public void clickonseeallbutton_functionality(String destination) throws InterruptedException, IOException {
 
 			HomePOMClass hm = new HomePOMClass(driver);
 
@@ -51,4 +52,27 @@ public class Verify_whether_User_clickon_SeeAll_button_from_ThingsToDo_Page exte
 			log.info("see all button is clicked");
 
 		}
+		@DataProvider
+		public Object[][] getData()
+		{
+			Object[][] data=new Object[6][1];
+			
+			data[0][0]="Egypt";
+			
+			data[1][0]="Cyprus";
+			
+			data[2][0]="Greece";
+			
+			data[3][0]="Turkey";
+			
+			data[4][0]="UAE";
+			
+			data[5][0]="Spain";
+			
+			return data;
+			
+			
+		}	
+
+		
 }

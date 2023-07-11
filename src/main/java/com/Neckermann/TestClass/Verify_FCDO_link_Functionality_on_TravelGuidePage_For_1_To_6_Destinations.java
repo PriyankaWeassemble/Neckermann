@@ -8,17 +8,18 @@ import java.util.Properties;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.Neckermann.POMClasses.DestinationsPOMClass;
 import com.Neckermann.POMClasses.HomePOMClass;
 import com.Neckermann.POMClasses.TravelGuidePOMClass;
 
-public class cc extends TestBaseClass{
+public class Verify_FCDO_link_Functionality_on_TravelGuidePage_For_1_To_6_Destinations extends TestBaseClass{
 	// 4. FCDO link click
 
-		@Test
-		public void FCDO_link_Functionality() throws InterruptedException, IOException {
+		@Test(dataProvider="getData")
+		public void FCDO_link_Functionality(String destination) throws InterruptedException, IOException {
 
 			HomePOMClass hm = new HomePOMClass(driver);
 
@@ -28,7 +29,7 @@ public class cc extends TestBaseClass{
 			Thread.sleep(2000);
 
 			// (Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands)
-			hm.clickonalldestinationsfromhomepage("Egypt");
+			hm.clickonalldestinationsfromhomepage(destination);
 			Thread.sleep(2000);
 
 			DestinationsPOMClass dm = new DestinationsPOMClass(driver);
@@ -36,16 +37,17 @@ public class cc extends TestBaseClass{
 			log.info("click on the Travel guide tab");
 			Thread.sleep(500);
 
-			js.executeScript("window.scroll(0,2600)");
-			Thread.sleep(2000);
+			js.executeScript("window.scroll(0,2800)");
+			Thread.sleep(3000);
 
 			TravelGuidePOMClass trm = new TravelGuidePOMClass(driver);
 			trm.Click_FCDO_link();
+			Thread.sleep(1000);
 
 			List<String> allpageaddress = new ArrayList<String>(driver.getWindowHandles());
 			driver.switchTo().window(allpageaddress.get(1));
 			
-			Properties prop=new Properties();
+			   Properties prop=new Properties();
 			   FileInputStream  ip=new FileInputStream("C:\\Users\\Priyanka Lanjekar\\git\\Neckermann\\Neckermann\\src\\main\\java\\com\\Neckermann\\TestClass\\config.properties");
 			   prop.load(ip);
 
@@ -56,5 +58,27 @@ public class cc extends TestBaseClass{
 			log.info("FCDO link is open");
 
 		}
+		@DataProvider
+		public Object[][] getData()
+		{
+			Object[][] data=new Object[6][1];
+			
+			data[0][0]="Egypt";
+			
+			data[1][0]="Cyprus";
+			
+			data[2][0]="Greece";
+			
+			data[3][0]="Turkey";
+			
+			data[4][0]="UAE";
+			
+			data[5][0]="Spain";
+			
+			return data;
+			
+		}	
+		
+		
 
 }
