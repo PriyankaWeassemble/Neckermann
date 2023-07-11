@@ -208,24 +208,7 @@ public class HomePOMClass {
 		}
 	}
 
-	// ******************click on see all button from blog******************
-	@FindBy(xpath = "(//a[text()='see all'])[1]")
-	private WebElement SeeAllbutton;
-
-	public void clickonSeeAllbutton() {
-		SeeAllbutton.click();
-	}
-
-	// Select blog from the home page
-	@FindBy(xpath = "//div[@class='inspirations_section_gallery__hJy_Y']//a/div[2]/a[text()='Read More']")
-	private List<WebElement> selectblogfromhomepage;
-
-	public void clickonselectblogfromhomepage() {
-		for (int i = 0; i < selectblogfromhomepage.size(); i++) {
-			selectblogfromhomepage.get(i).click();
-
-		}
-	}
+	
 
 	// ******************click on the Videos******************//
 	@FindBy(xpath = "//video[@width='1000']")
@@ -740,7 +723,7 @@ public class HomePOMClass {
 //				select Airports from the Departure(birmingham, bournemouth,bristol,cardiff,edinburgh,gatwick,glasgow international,heathrow,leeds bradford, liverpool,
 //				                                   london - all airports,luton, manchester,newcastle,stansted)
 
-	@FindBy(xpath = "//ul[@id='departureAirportList']/li[@class='departure-input_inputGroup__M2Gt0']")
+	@FindBy(xpath = "//ul[@id='departureAirportList']/li[@class='departure-input_inputGroup__M2Gt0']/label")
 	private List<WebElement> AirportofdepartureAirport;
 
 	public void clickonAirportofdepartureAirport(String b)// if want to click on the all then remove the argument
@@ -752,6 +735,75 @@ public class HomePOMClass {
 			}
 		}
 	}
+	
+	@FindBy(xpath="//label[text()='london - all airports']")
+	private WebElement londondeparture;
+	
+	public void clickonlondondeparture()
+	{
+		londondeparture.click();
+	}
+	
+	// Travel date
+
+		@FindBy(xpath = "//input[@class='travel-dates-picker_travelDatesInput__f8c7s']")
+		private WebElement traveldatetextbox;
+
+		public void clickontraveldatetextbox() {
+			traveldatetextbox.click();
+		}
+
+		public String getattributevaluetraveldatetextbox() {
+			String b = traveldatetextbox.getAttribute("placeholder");
+			return b;
+		}
+
+	
+		//date selection
+		
+		
+		// search button
+		
+		@FindBy(xpath = "//button[@class='search-widget-form_submitButton__0ByQy']")
+		private WebElement searchbutton;
+
+		public void clickonsearchbutton() {
+			searchbutton.click();
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		// ******************click on see all button from blog******************
+		@FindBy(xpath = "(//a[text()='see all'])[1]")
+		private WebElement SeeAllbutton;
+
+		public void clickonSeeAllbutton() {
+			SeeAllbutton.click();
+		}
+
+		// Select blog from the home page
+		@FindBy(xpath = "//div[@class='inspirations_section_gallery__hJy_Y']//a/div[2]/a[text()='Read More']")
+		private List<WebElement> selectblogfromhomepage;
+
+		public void clickonselectblogfromhomepage() {
+			for (int i = 0; i < selectblogfromhomepage.size(); i++) {
+				selectblogfromhomepage.get(i).click();
+
+			}
+		}
+	
 
 	// Treading holidays click on the "view Now" and forward & backward arrow
 	// each "view now button" is different for the 27 hotels , component is same but

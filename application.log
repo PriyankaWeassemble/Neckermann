@@ -4662,3 +4662,84 @@
 2023-07-11 16:25:17,625  INFO [main] Neckermann:53 - URL is opened
 2023-07-11 16:25:17,773  INFO [main] Neckermann:61 - cookie policy accepted
 2023-07-11 16:25:17,832  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 16:32:18,609  INFO [main] Neckermann:47 - Browser is opened
+2023-07-11 16:32:18,749  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-11 16:32:20,105  INFO [main] Neckermann:53 - URL is opened
+2023-07-11 16:32:20,308  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-11 16:32:20,369  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 16:32:20,493  INFO [main] Neckermann:25 - text is correct in the destination field
+2023-07-11 16:32:20,666  INFO [main] Neckermann:28 - destination textbox is clicked
+2023-07-11 16:35:37,841  INFO [main] Neckermann:47 - Browser is opened
+2023-07-11 16:35:37,979  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-11 16:35:41,519  INFO [main] Neckermann:53 - URL is opened
+2023-07-11 16:35:41,766  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-11 16:35:41,800  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 16:35:41,868  INFO [main] Neckermann:25 - text is correct in the destination field
+2023-07-11 16:35:42,073  INFO [main] Neckermann:28 - destination textbox is clicked
+2023-07-11 17:18:58,708  INFO [main] Neckermann:47 - Browser is opened
+2023-07-11 17:18:58,834  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-11 17:19:00,328  INFO [main] Neckermann:53 - URL is opened
+2023-07-11 17:19:00,586  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-11 17:19:00,643  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 17:19:00,765  INFO [main] Neckermann:25 - text is correct in the destination field
+2023-07-11 17:19:00,933  INFO [main] Neckermann:28 - destination textbox is clicked
+2023-07-11 17:19:11,295  INFO [main] Neckermann:39 - departure airport is selected
+2023-07-11 17:21:08,926  INFO [main] Neckermann:47 - Browser is opened
+2023-07-11 17:21:09,103  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-11 17:21:10,514  INFO [main] Neckermann:53 - URL is opened
+2023-07-11 17:21:10,741  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-11 17:21:10,813  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 17:21:10,936  INFO [main] Neckermann:25 - text is correct in the destination field
+2023-07-11 17:21:11,087  INFO [main] Neckermann:28 - destination textbox is clicked
+2023-07-11 17:21:21,351  INFO [main] Neckermann:39 - departure airport is selected
+2023-07-11 17:26:27,503  INFO [main] Neckermann:47 - Browser is opened
+2023-07-11 17:26:27,660  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-11 17:26:49,335  INFO [main] Neckermann:53 - URL is opened
+2023-07-11 17:26:49,534  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-11 17:26:49,570  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 17:26:49,659  INFO [main] Neckermann:25 - text is correct in the destination field
+2023-07-11 17:26:49,804  INFO [main] Neckermann:28 - destination textbox is clicked
+2023-07-11 17:27:00,109  INFO [main] Neckermann:39 - departure airport is selected
+2023-07-11 17:32:55,718  INFO [main] Neckermann:47 - Browser is opened
+2023-07-11 17:32:55,864  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-11 17:32:57,401  INFO [main] Neckermann:53 - URL is opened
+2023-07-11 17:32:57,566  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-11 17:32:57,610  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 17:32:57,708  INFO [main] Neckermann:25 - text is correct in the destination field
+2023-07-11 17:32:57,840  INFO [main] Neckermann:28 - destination textbox is clicked
+2023-07-11 17:33:08,148  INFO [main] Neckermann:39 - departure airport is selected
+2023-07-11 17:34:03,106  INFO [main] Neckermann:47 - Browser is opened
+2023-07-11 17:34:03,248  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-11 17:34:06,056  INFO [main] Neckermann:53 - URL is opened
+2023-07-11 17:34:06,205  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-11 17:34:06,264  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 17:34:06,349  INFO [main] Neckermann:25 - text is correct in the destination field
+2023-07-11 17:34:06,542  INFO [main] Neckermann:28 - destination textbox is clicked
+2023-07-11 17:34:16,860  INFO [main] Neckermann:39 - departure airport is selected
+2023-07-11 17:35:28,570  INFO [main] Neckermann:47 - Browser is opened
+2023-07-11 17:35:28,713  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-11 17:35:30,133  INFO [main] Neckermann:53 - URL is opened
+2023-07-11 17:35:30,383  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-11 17:35:30,423  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 17:35:30,521  INFO [main] Neckermann:25 - text is correct in the destination field
+2023-07-11 17:35:30,636  INFO [main] Neckermann:28 - destination textbox is clicked
+2023-07-11 17:35:40,961  INFO [main] Neckermann:39 - departure airport is selected
+2023-07-11 17:36:05,843  INFO [main] Neckermann:47 - Browser is opened
+2023-07-11 17:36:05,995  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-11 17:36:07,476  INFO [main] Neckermann:53 - URL is opened
+2023-07-11 17:36:07,722  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-11 17:36:07,801  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 17:36:07,896  INFO [main] Neckermann:25 - text is correct in the destination field
+2023-07-11 17:36:08,066  INFO [main] Neckermann:28 - destination textbox is clicked
+2023-07-11 17:36:18,346  INFO [main] Neckermann:39 - departure airport is selected
+2023-07-11 17:50:33,629  INFO [main] Neckermann:47 - Browser is opened
+2023-07-11 17:50:33,782  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-11 17:50:35,255  INFO [main] Neckermann:53 - URL is opened
+2023-07-11 17:50:35,463  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-11 17:50:35,514  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 17:51:16,881  INFO [main] Neckermann:47 - Browser is opened
+2023-07-11 17:51:17,033  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-11 17:51:18,575  INFO [main] Neckermann:53 - URL is opened
+2023-07-11 17:51:18,828  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-11 17:51:18,871  INFO [main] Neckermann:71 - Home page is open
+2023-07-11 17:51:22,030  INFO [main] Neckermann:25 - text is correct in the destination field

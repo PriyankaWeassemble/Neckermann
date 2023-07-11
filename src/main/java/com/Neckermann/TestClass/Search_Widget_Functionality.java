@@ -30,6 +30,24 @@ public class Search_Widget_Functionality extends TestBaseClass {
 //         
            hm.clickonselectdestination();
            Thread.sleep(3000);
+        
+           hm.clickondepartureAirportonhomepagelement();
+           Thread.sleep(3000);
+           String expectedText1 = "From";   	
+		   String actualText1 =  hm.getattributevalue();
+		   Assert.assertEquals(actualText1, expectedText1);
+           log.info("departure airport is selected");
+          
+//           hm.clickonAirportofdepartureAirport("birmingham"); // not working 
+           hm.clickonlondondeparture();
+           Thread.sleep(3000);
+           //birmingham, bournemouth,bristol,cardiff,edinburgh,gatwick,glasgow international,heathrow,leeds bradford, liverpool,
+//           london
+//           hm.clickonAirportofdepartureAirport("birmingham");
+          
+           hm.clickontraveldatetextbox();
+           Thread.sleep(3000);
+           
            
            
            
