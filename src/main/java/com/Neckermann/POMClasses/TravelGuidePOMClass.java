@@ -21,7 +21,7 @@ public class TravelGuidePOMClass {
 
 	// link "Egypt tourism website"
 
-	@FindBy(xpath = "(//a[@target='_blank'])[1]")
+	@FindBy(xpath = "(//a[@target='_blank'])[2]")
 	private WebElement tourist_information_link;
 
 	public void clickontourist_information_link() {
@@ -32,7 +32,7 @@ public class TravelGuidePOMClass {
 
 	// link "visa health link"
 
-	@FindBy(xpath = "(//a[@target='_blank'])[2]")
+	@FindBy(xpath = "(//a[@target='_blank'])[3]")
 	private WebElement visa_health_link;
 
 	public void clickonvisa_health_link() {

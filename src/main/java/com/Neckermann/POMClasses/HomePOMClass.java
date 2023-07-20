@@ -174,7 +174,7 @@ public class HomePOMClass {
 
 	// visibility of the collection on the home page
 
-	@FindBy(xpath = "//section[@class='collections_section_container__wZxnz collections_collections_section__gQV4N']")
+	@FindBy(xpath = "//section[@class='collections_sectionContainer__n_f_h collections_collections_section__gQV4N']")
 	private WebElement visibilityofcollectiononhomepage;
 
 	public boolean visibilityofcollectiononhomepage() {
@@ -333,7 +333,7 @@ public class HomePOMClass {
 	// *****************Newsletter***********************//
 
 	// Newsletter component
-	@FindBy(xpath = "//section[@class='newsletter_section_container__PgpRE newsletter_travel_journey_section__QSg4q']")
+	@FindBy(xpath = "//section[@class='newsletter_sectionContainer__TGgQJ newsletter_travel_journey_section__QSg4q']")
 	private WebElement Newsletter_Component;
 
 	public boolean visiblityofNewsletter_Component_homepage() {
@@ -397,7 +397,7 @@ public class HomePOMClass {
 	}
 	// valid email error message
 
-	@FindBy(xpath = "//div[text()='Email must be a valid email']")
+	@FindBy(xpath = "//div[text()='Invalid email format. Email addresses should follow the standard format of \"username@domain.com\".']")
 	private WebElement valid_email_error_message;
 
 	public boolean visiblityofvalid_email_error_message() {
@@ -407,7 +407,7 @@ public class HomePOMClass {
 
 	}
 
-	@FindBy(xpath = "	//div[text()='Email is required']")
+	@FindBy(xpath = "//div[text()='Email is required.']")
 	private WebElement emailisrequired_error_message;
 
 	public boolean visiblityofemailisrequired_error_message() {
@@ -420,7 +420,7 @@ public class HomePOMClass {
 	// ************FOOTER***********************//
 
 	// logo container
-	@FindBy(xpath = "//footer[@class='footer_section_container__PyfBS']")
+	@FindBy(xpath = "//footer[@class='footer_sectionContainer___0Fqc']")
 	private WebElement footer_element_container;
 
 	public boolean visiblityoffooter_element_container() {
@@ -568,7 +568,7 @@ public class HomePOMClass {
 	private WebElement firstlineofaddress;
 
 	public String gettextfromfirstlineofaddress() {
-		String a = footercontent.getText();
+		String a = firstlineofaddress.getText();
 		return a;}
 	
 
@@ -696,7 +696,7 @@ public class HomePOMClass {
 
 //				
 	// select "Ibiza" from detination(cyprus)
-	@FindBy(xpath = "//option[text()='Ibiza']")
+	@FindBy(xpath = "//option[text()='Antalya']")//Ibiza,Antalya,Dubai
 	private WebElement selectdestination;
 
 	public void clickonselectdestination() {
@@ -779,7 +779,17 @@ public class HomePOMClass {
 	
 	
 	
-	
+	//**********my booking tab 
+		// click on mybooking tab
+		@FindBy(xpath = "(//a[@target='_blank'])[1]")
+		private WebElement mybookingtab;
+
+		public void clickonmybookingtab() {
+
+			mybookingtab.click();
+
+		}
+		
 	
 	
 	
@@ -821,3 +831,34 @@ public class HomePOMClass {
 //	}
 
 }
+
+
+
+
+
+//how to automate calendar components?
+//heder--->//header[@class='header_header__cFIgN ']
+//Newsletter-->//section[@class='newsletter_section_container__PgpRE newsletter_travel_journey_section__QSg4q']
+//Footer--->//footer[@class='footer_section_container__PyfBS']
+//
+//
+//Heading1-->//h5[text()='Neckermann ']
+//heading2-->//span[text()='Travel Blogs']
+//
+//breadcrumb-->
+//home-->
+//blog-->
+//All-->
+//
+//Tabs
+//All-->
+//Beaches-->
+//City-->
+//couples-->
+//Family-->
+//Featured-->
+//News-->
+
+
+
+

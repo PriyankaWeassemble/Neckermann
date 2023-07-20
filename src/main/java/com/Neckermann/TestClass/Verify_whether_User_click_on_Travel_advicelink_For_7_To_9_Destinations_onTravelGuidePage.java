@@ -15,7 +15,7 @@ import com.Neckermann.POMClasses.DestinationsPOMClass;
 import com.Neckermann.POMClasses.HomePOMClass;
 import com.Neckermann.POMClasses.TravelGuidePOMClass;
 
-public class Verify_whether_User_click_on_Travel_advicelink_For_7_To_9_Destinations extends TestBaseClass {
+public class Verify_whether_User_click_on_Travel_advicelink_For_7_To_9_Destinations_onTravelGuidePage extends TestBaseClass {
 	// 2. click on visa health link--->*****ADD ASSERTIONS FOR PAGE
 			@Test(dataProvider="getData")
 			public void visa_healthlink_Functionality(String destination, String traveladvicelink) throws InterruptedException, IOException {
@@ -51,7 +51,7 @@ public class Verify_whether_User_click_on_Travel_advicelink_For_7_To_9_Destinati
 				String expectedTitle1 = prop.getProperty(traveladvicelink);
 				String actualTitle1 = driver.getTitle();
 				Assert.assertEquals(actualTitle1, expectedTitle1);
-				log.info("Egypt travel advice - GOV.UK link is open");
+				log.info(" travel advice - GOV.UK link is open");
 
 			}
 			@DataProvider

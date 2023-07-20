@@ -55,7 +55,7 @@ public class AboutusPOMClass {
 
 	// for checking the visiblity of the footer
 
-	@FindBy(xpath = "//footer[@class='footer_section_container__PyfBS']")
+	@FindBy(xpath = "//footer[@class='footer_sectionContainer___0Fqc']")
 	private WebElement footeraboutus;
 
 	public boolean visiblityoffooteraboutus() {

@@ -36,6 +36,8 @@ public class VerifyWhether_User_clickon_indivisual_Blog_from_ThingsToDo_Page ext
 			Thread.sleep(1000);
 
 			tm.clickonindividualblog();
+			log.info("click on the individual blog");
+			Thread.sleep(2000);
 //			ScreenshotClass.takeScreenshot(driver,"individualblog");
 			
 			Properties prop=new Properties();

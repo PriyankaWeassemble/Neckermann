@@ -13,7 +13,7 @@ import com.Neckerman.UtilityClass.ScreenshotClass;
 public class AtolPOMClass {
 
 	private WebDriver driver;
-	@FindBy(xpath = "//div[@class='AtolProtected_headerParent__38ppk']")
+	@FindBy(xpath = "//div[@class='AtolProtected_headerParent__GRB2i']")
 	private WebElement headerelement;
 
 	public String headerelementtitlefetch() {
@@ -59,7 +59,7 @@ public class AtolPOMClass {
 
 	// click on the ATOL Protected
 
-	@FindBy(xpath = "(//button[@class='AtolProtected_readMoreBtn__V0Y_1'])[1]")
+	@FindBy(xpath = "(//button[@class='AtolProtected_readMoreBtn__zewuU'])[1]")
 	private WebElement Atolprotectedreadmore;
 
 	public void clickonAtolprotectedreadmore() {
@@ -76,7 +76,7 @@ public class AtolPOMClass {
 	}
 
 //	click on the unbeatable price
-	@FindBy(xpath = "(//button[@class='AtolProtected_readMoreBtn__V0Y_1'])[3]")
+	@FindBy(xpath = "(//button[@class='AtolProtected_readMoreBtn__zewuU'])[3]")
 	private WebElement unbeatableprice;
 
 	public void clickonunbeatableprice() {
@@ -91,7 +91,7 @@ public class AtolPOMClass {
 	}
 
 	// click on the Quality assured
-	@FindBy(xpath = "(//button[@class='AtolProtected_readMoreBtn__V0Y_1'])[5]")
+	@FindBy(xpath = "(//button[@class='AtolProtected_readMoreBtn__zewuU'])[5]")
 	private WebElement Qualityassured;
 
 	public void clickonQualityassured() {

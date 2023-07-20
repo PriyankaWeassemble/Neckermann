@@ -28,7 +28,7 @@ public class Verify_Readmore_Readless_functionality_on_CollectionPage extends Te
 		Thread.sleep(2000);
 		CollectionPOMClass cm = new CollectionPOMClass(driver);
 
-		js.executeScript("window.scroll(0,1500)");
+		js.executeScript("window.scroll(0,1300)");
 		Thread.sleep(2000);
 
 		cm.clickonreadmore();

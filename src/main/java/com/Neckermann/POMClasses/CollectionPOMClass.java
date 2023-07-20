@@ -69,7 +69,7 @@ public class CollectionPOMClass {
 
 	// Title of the collection
 
-	@FindBy(xpath = "//h1[@class='collectionTabs_title__zQxMQ']")
+	@FindBy(xpath = "//h1[@class='navigationTabs_title__bKIi5']")
 	private WebElement Titleofcollection;
 
 	public String gettextfromTitleofcollection() {
@@ -91,7 +91,7 @@ public class CollectionPOMClass {
 
 	// select one component from the more collection
 
-	@FindBy(xpath = "(//div[@class='collectionsHolidays_collection__xIALU'])[1]") // change the index number(2,3)
+	@FindBy(xpath = "(//div[@class='holidays_collection__Aa36n'])[1]") // change the index number(2,3)
 	private WebElement componentfrommorecollection;
 
 	public void clickoncomponentfrommorecollection() {
@@ -185,7 +185,7 @@ public class CollectionPOMClass {
 
 	// View button for individual hotel
 
-	@FindBy(xpath = "(//a[@class='featuredHotels_view__ooS4R'])[2]") // for 2nd & 3rd use index(2,3)
+	@FindBy(xpath = "(//a[@class='featuredHotels_view__hVlzP'])[2]") // for 2nd & 3rd use index(2,3)
 	private WebElement viewbuttonforindividualhotel;
 
 	public void clickonviewbuttonforindividualhotel() {
@@ -202,10 +202,11 @@ public class CollectionPOMClass {
 		boolean x = Newsletter.isDisplayed();
 		return x;
 	}
+	
 
 	// for checking the visiblity of the footer
 
-	@FindBy(xpath = "//footer[@class='footer_section_container__PyfBS']")
+	@FindBy(xpath = "//footer[@class='footer_sectionContainer___0Fqc']")
 	private WebElement footer;
 
 	public boolean visiblityoffooter() {

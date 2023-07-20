@@ -3,48 +3,13 @@
 <suite name="Failed suite [Version2AutomationTesting]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.Neckermann.TestClass.VerifyWhether_footerCivilaviationLink_linkOpen_fromFooter">
+      <class name="com.Neckermann.TestClass.Verifywhether_user_should_clickon_yourguide_on_travelGuidePage_For_7_To_8_Destinations">
         <methods>
           <include name="setUp"/>
-          <include name="Footer_footerCivilaviationLink_Functionality"/>
+          <include name="Travel_guide_anotherbuttonclick_click" invocation-numbers="2"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Neckermann.TestClass.VerifyWhether_footerCivilaviationLink_linkOpen_fromFooter -->
-      <class name="com.Neckermann.TestClass.Verify_submenus_from_The_Footer_Holidays_Functionality">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="Footer_Holidays_Functionality"/>
-        </methods>
-      </class> <!-- com.Neckermann.TestClass.Verify_submenus_from_The_Footer_Holidays_Functionality -->
-      <class name="com.Neckermann.TestClass.Verify_The_Footer_address">
-        <methods>
-          <include name="Footer_address_Functionality"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.Neckermann.TestClass.Verify_The_Footer_address -->
-      <class name="com.Neckermann.TestClass.Verify_Submenus_From__Legalmenu_onFooter">
-        <methods>
-          <include name="setUp"/>
-          <include name="Footer_Legal_Functionality"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.Neckermann.TestClass.Verify_Submenus_From__Legalmenu_onFooter -->
-      <class name="com.Neckermann.TestClass.Verify_The_Submenus_FromThe_Company_Menu_From_TheFooter">
-        <methods>
-          <include name="setUp"/>
-          <include name="Footer_company_Functionality"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.Neckermann.TestClass.Verify_The_Submenus_FromThe_Company_Menu_From_TheFooter -->
-      <class name="com.Neckermann.TestClass.VerifyWhether_the_footerCivilaviationLink_Opens_fromThe_Footer">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="Footer_footercontent_Functionality"/>
-        </methods>
-      </class> <!-- com.Neckermann.TestClass.VerifyWhether_the_footerCivilaviationLink_Opens_fromThe_Footer -->
+      </class> <!-- com.Neckermann.TestClass.Verifywhether_user_should_clickon_yourguide_on_travelGuidePage_For_7_To_8_Destinations -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Version2AutomationTesting] -->

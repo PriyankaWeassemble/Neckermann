@@ -22,7 +22,7 @@ public class Verify_whether_User_clickon_SeeAll_button_from_ThingsToDo_Page_For_
 				HomePOMClass hm = new HomePOMClass(driver);
 
 				JavascriptExecutor js = (JavascriptExecutor) driver;
-				js.executeScript("window.scroll(0,2000)");
+				js.executeScript("window.scroll(0,1950)");
 				Thread.sleep(1000);
 
 				// (Egypt,Cyprus,Greece,Turkey,UAE,Spain,Portugal,Balearics,Canary islands)
@@ -65,7 +65,6 @@ public class Verify_whether_User_clickon_SeeAll_button_from_ThingsToDo_Page_For_
 				data[2][0]="Canary islands";
 				
 				return data;
-				
 				
 			    }
 	

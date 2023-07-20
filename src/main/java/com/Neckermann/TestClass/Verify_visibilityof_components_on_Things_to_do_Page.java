@@ -35,22 +35,22 @@ public class Verify_visibilityof_components_on_Things_to_do_Page extends TestBas
 			boolean actual = tm.visiblityofsearchwidgetcomponent();
 			boolean expected = true;
 			Assert.assertEquals(actual, expected);
-			log.info("search widget is visible on the destination");
+			log.info("search widget is visible on the things to do page");
 
 			boolean actual1 = tm.visiblityofbraedcrumb_component();
 			boolean expected1 = true;
 			Assert.assertEquals(actual1, expected1);
-			log.info("bread crumb is visible on the destination");
+			log.info("bread crumb is visible on the things to do page");
 
 			boolean actual2 = tm.visiblityofheadercomponentcomponent();
 			boolean expected2 = true;
 			Assert.assertEquals(actual2, expected2);
-			log.info("header component is visible on the destination");
+			log.info("header component is visible on the things to do page");
 
 			boolean actual3 = tm.visiblityofnewsletter();
 			boolean expected3 = true;
 			Assert.assertEquals(actual3, expected3);
-			log.info("Newsletter component is visible on the destination");
+			log.info("Newsletter component is visible on the things to do page");
 		}
 
 }

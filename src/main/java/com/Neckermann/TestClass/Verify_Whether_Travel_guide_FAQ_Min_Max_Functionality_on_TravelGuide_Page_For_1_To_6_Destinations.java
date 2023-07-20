@@ -28,7 +28,7 @@ public class Verify_Whether_Travel_guide_FAQ_Min_Max_Functionality_on_TravelGuid
 		log.info("click on the Travel guide tab");
 		Thread.sleep(500);
 
-		js.executeScript("window.scroll(0,3900)");
+		js.executeScript("window.scroll(0,3750)");
 		Thread.sleep(2000);
 		TravelGuidePOMClass tg=new TravelGuidePOMClass(driver);
 		

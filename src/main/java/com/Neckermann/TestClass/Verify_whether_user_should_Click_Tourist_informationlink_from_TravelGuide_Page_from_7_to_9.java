@@ -32,17 +32,19 @@ public class Verify_whether_user_should_Click_Tourist_informationlink_from_Trave
 //		ScreenshotClass.takeScreenshot(driver,"destination");
 		DestinationsPOMClass dm = new DestinationsPOMClass(driver);
 		dm.clickonsubmenusfromdestination("Travel guide");
+		Thread.sleep(500);
 //		ScreenshotClass.takeScreenshot(driver,"TravelGuidePage");
 		log.info("click on the Travel guide tab");
-		Thread.sleep(500);
+
 
 		js.executeScript("window.scroll(0,900)");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 		TravelGuidePOMClass trm = new TravelGuidePOMClass(driver);
 		trm.clickontourist_information_link();
-//		ScreenshotClass.takeScreenshot(driver,"1stlinkontravelguide");
 		
+//		ScreenshotClass.takeScreenshot(driver,"1stlinkontravelguide");
+		Thread.sleep(2000);
 		List<String> allpageaddress = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(allpageaddress.get(1));
 		

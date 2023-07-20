@@ -49,18 +49,26 @@ public class VerifyWhether_User_clickon_allthe_indivisual_Blog_from_ThingsToDo_P
 	@DataProvider
 	public Object[][] getData()
 	{
-		Object[][] data=new Object[3][1];
+		Object[][] data=new Object[6][1];
 		
-		data[0][0]="Portugal";
+		data[0][0]="Egypt";
 		
-		data[1][0]="Balearics";
+		data[1][0]="Cyprus";
 		
-		data[2][0]="Canary islands";
+		data[2][0]="Greece";
+		
+		data[3][0]="Turkey";
+		
+		data[4][0]="UAE";
+		
+		data[5][0]="Spain";
 		
 		return data;
 		
 		
-	    }
+	}	
+	
+	
 	
 	
 	

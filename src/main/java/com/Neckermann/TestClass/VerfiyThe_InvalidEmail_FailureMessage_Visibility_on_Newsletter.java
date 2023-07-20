@@ -30,7 +30,7 @@ public class VerfiyThe_InvalidEmail_FailureMessage_Visibility_on_Newsletter exte
 		hm.clcikonsignup_newsletter();
 		log.info("signup button clicked");
 		Thread.sleep(2000);
-
+ 
 //           String expectedmsg ="User subscribed to the newsletter, please check your email";   	
 //		   String actualmsg = hm.getmessagefromthetoast();
 //		   if(expectedmsg.equals(actualmsg))

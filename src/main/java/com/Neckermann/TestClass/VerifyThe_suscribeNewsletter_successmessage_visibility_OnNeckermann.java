@@ -21,7 +21,7 @@ public class VerifyThe_suscribeNewsletter_successmessage_visibility_OnNeckermann
 		js.executeScript("window.scroll(0,5000)");
 		Thread.sleep(2000);
 
-		hm.enteremailidinnewsletter("dszffvdgcv@gmail.com");//change the email every time
+		hm.enteremailidinnewsletter("dszyuyffvdgcv@gmail.com");//change the email every time
 		log.info("email id entered");
 
 		hm.clcikonsignup_newsletter();

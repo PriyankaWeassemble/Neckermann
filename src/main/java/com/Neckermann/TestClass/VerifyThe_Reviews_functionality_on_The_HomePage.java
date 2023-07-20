@@ -30,21 +30,22 @@ public class VerifyThe_Reviews_functionality_on_The_HomePage extends TestBaseCla
 		log.info("back arrow clicked ");
 //	    ScreenshotClass.takeScreenshot(driver, "backwardarrowclick");
 		Thread.sleep(2000);
+//		*******Removed trustpiolot button*******************//
 
-		hm.clickontrustpiolet_homepage();
-//	       ScreenshotClass.takeScreenshot(driver, "trustpilotPage");
+//		hm.clickontrustpiolet_homepage();
+////	       ScreenshotClass.takeScreenshot(driver, "trustpilotPage");
 
-		List<String> allpageaddress = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(allpageaddress.get(1));
+//		List<String> allpageaddress = new ArrayList<String>(driver.getWindowHandles());
+//		driver.switchTo().window(allpageaddress.get(1));
 
-		Properties prop=new Properties();
-		FileInputStream  ip=new FileInputStream("C:\\Users\\Priyanka Lanjekar\\git\\Neckermann\\Neckermann\\src\\main\\java\\com\\Neckermann\\TestClass\\config.properties");
-	    prop.load(ip);
-
-		String expectedTitle2 = prop.getProperty("TrustpilotLinkTitle");
-		String actualTitle2 = driver.getTitle();
-		Assert.assertEquals(actualTitle2, expectedTitle2);
-		log.info("Trustpilot side is open");
+//		Properties prop=new Properties();
+//		FileInputStream  ip=new FileInputStream("C:\\Users\\Priyanka Lanjekar\\git\\Neckermann\\Neckermann\\src\\main\\java\\com\\Neckermann\\TestClass\\config.properties");
+//	    prop.load(ip);
+//
+//		String expectedTitle2 = prop.getProperty("TrustpilotLinkTitle");
+//		String actualTitle2 = driver.getTitle();
+//		Assert.assertEquals(actualTitle2, expectedTitle2);
+//		log.info("Trustpilot side is open");
 
 	}
 

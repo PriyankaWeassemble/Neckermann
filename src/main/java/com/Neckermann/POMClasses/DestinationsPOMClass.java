@@ -59,7 +59,7 @@ public class DestinationsPOMClass {
 	}
 
 	// select the submenus -->Travel guide, Holidays,Things to do
-	@FindBy(xpath = "//ul[@class='destinationTabs_tabs__8mlEU']/li")
+	@FindBy(xpath = "//ul[@class='navigationTabs_tabs__xZ2df']/li")
 	private List<WebElement> submenusfromdestination;
 
 	public void clickonsubmenusfromdestination(String z) {
@@ -83,7 +83,7 @@ public class DestinationsPOMClass {
 
 	// more destination section
 
-	@FindBy(xpath = "(//section[@class='holidays_right_section__geObw'])[1]")
+	@FindBy(xpath = "(//section[@class='holidays_right_section__BuXfw'])[1]")
 	private WebElement moredestsection;
 
 	public boolean visiblityofmoredestsection() {
@@ -95,7 +95,7 @@ public class DestinationsPOMClass {
 
 	// select one component from the more destination
 
-	@FindBy(xpath = "(//div[@class='holidays_collection__UK_tn'])[1]") // change the index number(2,3)
+	@FindBy(xpath = "(//div[@class='holidays_collection__Aa36n'])[1]") // change the index number(2,3)
 	private WebElement componentfrommoredestination;
 
 	public void clickoncomponentfrommoredestination() {

@@ -15,7 +15,7 @@ import com.Neckermann.POMClasses.DestinationsPOMClass;
 import com.Neckermann.POMClasses.HomePOMClass;
 import com.Neckermann.POMClasses.TravelGuidePOMClass;
 
-public class Verify_whether_User_click_on_Travel_advicelink_For_1_To_6_Destinations extends TestBaseClass {
+public class Verify_whether_User_click_on_Travel_advicelink_For_1_To_6_Destinations_onTravelGuidePage extends TestBaseClass {
 	// 2. click on visa health link--->*****ADD ASSERTIONS FOR PAGE
 		@Test(dataProvider="getData")
 		public void visa_healthlink_Functionality(String destination, String traveladvicelink) throws InterruptedException, IOException {

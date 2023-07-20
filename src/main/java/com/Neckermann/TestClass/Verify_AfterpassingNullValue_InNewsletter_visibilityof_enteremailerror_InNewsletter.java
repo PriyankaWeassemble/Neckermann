@@ -23,7 +23,9 @@ public class Verify_AfterpassingNullValue_InNewsletter_visibilityof_enteremailer
 		Thread.sleep(2000);
 
 		hm.clcikonsignup_newsletter();
+		hm.clcikonsignup_newsletter();
 		log.info("signup button clicked");
+		Thread.sleep(3000);
 
 //           String expectedmsg ="User subscribed to the newsletter, please check your email";   	
 //		   String actualmsg = hm.getmessagefromthetoast();

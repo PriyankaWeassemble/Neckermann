@@ -138,7 +138,7 @@ public class ThingstoDoPOMClass {
 
 	// click on the individual blog
 
-	@FindBy(xpath = "(//a[@class='inspirations_content_container__nRBP4'])[3]") // change the index from 1 to 6
+	@FindBy(xpath = "(//a[text()='Read More'])[3]") // change the index from 1 to 6
 	private WebElement individualblog;
 
 	public void clickonindividualblog() {
@@ -149,7 +149,7 @@ public class ThingstoDoPOMClass {
 
 	// click on all the individual blog
 	// select the submenus -->Travel guide, Holidays,Things to do
-	@FindBy(xpath = "//a[@class='inspirations_content_container__nRBP4']")
+	@FindBy(xpath = "//a[text()='Read More']")
 	private List<WebElement> allindividualblog;
 
 	public void clickonallindividualblog() throws InterruptedException {

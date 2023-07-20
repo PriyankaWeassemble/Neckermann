@@ -41,13 +41,13 @@ public class Verifywhether_user_should_clickon_yourguide_on_travelGuidePage_For_
 @DataProvider
 public Object[][] getData()
 {
-	Object[][] data=new Object[3][1];
+	Object[][] data=new Object[2][1];
 	
 	data[0][0]="Portugal";
 	
 	data[1][0]="Balearics";
 	
-	data[2][0]="Canary islands";
+
 	
 	return data;
 	
