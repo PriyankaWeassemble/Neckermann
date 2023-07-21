@@ -8326,3 +8326,419 @@
 2023-07-20 12:03:19,910  INFO [main] Neckermann:61 - cookie policy accepted
 2023-07-20 12:03:19,960  INFO [main] Neckermann:71 - Home page is open
 2023-07-20 12:03:22,312  INFO [main] Neckermann:31 - MyBooking page is open
+2023-07-20 12:21:16,977  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:21:17,121  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:21:23,602  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:21:23,816  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:21:23,868  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:22:21,588  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:22:21,715  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:22:23,009  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:22:23,179  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:22:23,208  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:23:05,851  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:23:05,983  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:23:11,520  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:23:11,747  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:23:11,830  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:23:45,681  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:23:45,808  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:23:49,197  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:23:49,356  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:23:49,395  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:24:14,640  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:24:14,765  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:24:21,320  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:24:21,502  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:24:21,555  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:25:20,859  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:25:20,996  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:25:31,337  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:25:31,514  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:25:31,558  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:30:47,571  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:30:47,705  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:30:56,862  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:30:57,032  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:30:57,099  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:31:12,727  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:31:12,860  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:31:16,883  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:31:17,111  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:31:17,156  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:31:50,047  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:31:50,174  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:31:52,319  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:31:52,522  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:31:52,565  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:32:20,509  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:32:20,642  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:32:24,520  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:32:24,672  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:32:24,727  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:32:39,674  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:32:39,809  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:32:41,073  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:32:41,254  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:32:41,284  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:32:57,984  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:32:58,118  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:32:59,263  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:32:59,453  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:32:59,494  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:33:18,402  INFO [main] Neckermann:47 - Browser is opened
+2023-07-20 12:33:18,544  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-20 12:33:19,919  INFO [main] Neckermann:53 - URL is opened
+2023-07-20 12:33:20,071  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-20 12:33:20,121  INFO [main] Neckermann:71 - Home page is open
+2023-07-20 12:33:24,353  INFO [main] Neckermann:34 - text is correct in the destination field
+2023-07-21 10:49:11,091  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 10:49:11,243  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 10:49:15,305  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 10:49:15,477  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 10:49:15,531  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 10:49:30,539  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 10:49:30,670  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 10:49:36,307  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 10:49:36,456  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 10:49:36,512  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 10:49:40,699  INFO [main] Neckermann:35 - text is correct in the destination field
+2023-07-21 10:49:40,759  INFO [main] Neckermann:42 - Newsletter component is visible on the All blog page
+2023-07-21 10:49:40,812  INFO [main] Neckermann:47 - footer component is visible on the All blog page
+2023-07-21 10:49:40,857  INFO [main] Neckermann:52 - Header component is visible on the All blog page
+2023-07-21 10:50:02,808  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 10:50:02,940  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 10:50:08,226  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 10:50:08,384  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 10:50:08,444  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 10:50:12,620  INFO [main] Neckermann:35 - text is correct in the destination field
+2023-07-21 10:50:12,659  INFO [main] Neckermann:42 - Newsletter component is visible on the All blog page
+2023-07-21 10:50:12,690  INFO [main] Neckermann:47 - footer component is visible on the All blog page
+2023-07-21 10:50:12,722  INFO [main] Neckermann:52 - Header component is visible on the All blog page
+2023-07-21 10:50:28,641  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 10:50:28,769  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 10:50:30,366  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 10:50:30,612  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 10:50:30,669  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 10:50:34,835  INFO [main] Neckermann:35 - text is correct in the destination field
+2023-07-21 10:50:34,876  INFO [main] Neckermann:42 - Newsletter component is visible on the All blog page
+2023-07-21 10:50:34,916  INFO [main] Neckermann:47 - footer component is visible on the All blog page
+2023-07-21 10:50:34,945  INFO [main] Neckermann:52 - Header component is visible on the All blog page
+2023-07-21 10:59:40,725  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 10:59:40,859  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 10:59:50,058  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 10:59:50,191  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 10:59:50,234  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:00:28,986  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:00:29,125  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:00:30,651  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:00:30,803  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:00:30,830  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:00:35,003  INFO [main] Neckermann:74 - text is correct in the destination field
+2023-07-21 11:00:37,654  INFO [main] Neckermann:84 - User selects the blog tab from the breadcrumb
+2023-07-21 11:00:38,794  INFO [main] Neckermann:91 - User selects the Home tab from the breadcrumb
+2023-07-21 11:07:07,350  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:07:07,474  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:07:09,051  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:07:09,341  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:07:09,407  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:07:50,915  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:07:51,045  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:07:54,515  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:07:54,664  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:07:54,727  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:07:58,856  INFO [main] Neckermann:114 - text is correct in the destination field
+2023-07-21 11:09:50,526  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:09:50,665  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:09:54,727  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:09:54,862  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:09:54,913  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:09:59,087  INFO [main] Neckermann:114 - text is correct in the destination field
+2023-07-21 11:10:05,607  INFO [main] Neckermann:123 - Test case pass for the filters of the blog page
+2023-07-21 11:17:02,183  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:17:02,341  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:17:10,558  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:17:10,816  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:17:10,885  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:17:15,073  INFO [main] Neckermann:146 - text is correct in the destination field
+2023-07-21 11:17:16,210  INFO [main] Neckermann:152 - write text in the search box
+2023-07-21 11:17:17,299  INFO [main] Neckermann:156 - search button clicked
+2023-07-21 11:17:17,378  INFO [main] Neckermann:161 - Serach functionality works fine hence test case pass
+2023-07-21 11:17:43,037  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:17:43,170  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:17:47,820  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:17:48,060  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:17:48,153  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:17:52,284  INFO [main] Neckermann:146 - text is correct in the destination field
+2023-07-21 11:17:53,479  INFO [main] Neckermann:152 - write text in the search box
+2023-07-21 11:17:54,630  INFO [main] Neckermann:156 - search button clicked
+2023-07-21 11:17:54,914  INFO [main] Neckermann:161 - Serach functionality works fine hence test case pass
+2023-07-21 11:19:36,025  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:19:36,159  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:19:42,908  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:19:43,084  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:19:43,146  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:19:47,326  INFO [main] Neckermann:146 - text is correct in the destination field
+2023-07-21 11:19:48,471  INFO [main] Neckermann:152 - write text in the search box
+2023-07-21 11:19:49,558  INFO [main] Neckermann:156 - search button clicked
+2023-07-21 11:19:49,679  INFO [main] Neckermann:161 - Serach functionality works fine hence test case pass
+2023-07-21 11:31:13,296  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:31:13,442  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:31:15,097  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:31:15,465  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:31:15,537  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:31:19,832  INFO [main] Neckermann:183 - text is correct in the destination field
+2023-07-21 11:34:08,070  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:34:08,218  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:34:17,513  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:34:17,682  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:34:17,724  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:34:21,910  INFO [main] Neckermann:183 - text is correct in the destination field
+2023-07-21 11:34:23,048  INFO [main] Neckermann:192 - user  is directed to the destination page hense test case pass
+2023-07-21 11:40:58,339  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:40:58,472  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:41:01,572  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:41:01,705  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:41:01,768  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:41:05,961  INFO [main] Neckermann:214 - text is correct in the destination field
+2023-07-21 11:42:14,239  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:42:14,383  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:42:17,315  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:42:17,478  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:42:17,531  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:42:21,784  INFO [main] Neckermann:214 - text is correct in the destination field
+2023-07-21 11:42:51,458  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:42:51,594  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:42:57,144  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:42:57,308  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:42:57,380  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:43:01,546  INFO [main] Neckermann:214 - text is correct in the destination field
+2023-07-21 11:43:03,674  INFO [main] Neckermann:223 - user is directedb to the individual blog page
+2023-07-21 11:47:33,554  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:47:33,693  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:47:36,988  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:47:37,138  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:47:37,198  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:47:41,455  INFO [main] Neckermann:246 - text is correct in the destination field
+2023-07-21 11:48:50,138  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:48:50,278  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:48:56,045  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:48:56,223  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:48:56,276  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:49:00,449  INFO [main] Neckermann:246 - text is correct in the destination field
+2023-07-21 11:53:55,170  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:53:55,313  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:54:03,487  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:54:03,661  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:54:03,734  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:54:08,120  INFO [main] Neckermann:246 - text is correct in the destination field
+2023-07-21 11:54:52,685  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:54:52,825  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:54:56,663  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:54:56,815  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:54:56,885  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:55:01,031  INFO [main] Neckermann:246 - text is correct in the destination field
+2023-07-21 11:55:13,257  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:55:13,398  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:55:18,842  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:55:19,002  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:55:19,066  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:55:23,254  INFO [main] Neckermann:246 - text is correct in the destination field
+2023-07-21 11:57:20,036  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 11:57:20,171  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 11:57:27,209  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 11:57:27,385  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 11:57:27,432  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 11:57:31,629  INFO [main] Neckermann:246 - text is correct in the destination field
+2023-07-21 11:57:42,065  INFO [main] Neckermann:264 - back arrow functionality is pass
+2023-07-21 12:00:31,407  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:00:31,546  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:00:38,044  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:00:38,252  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:00:38,344  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:00:42,619  INFO [main] Neckermann:286 - text is correct in the destination field
+2023-07-21 12:00:53,043  INFO [main] Neckermann:302 - back arrow functionality is pass
+2023-07-21 12:01:54,333  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:01:54,458  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:01:56,424  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:01:56,578  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:01:56,622  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:02:00,843  INFO [main] Neckermann:286 - text is correct in the destination field
+2023-07-21 12:02:11,268  INFO [main] Neckermann:302 - back arrow functionality is pass
+2023-07-21 12:31:58,355  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:31:58,485  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:32:07,437  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:32:07,636  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:32:07,679  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:32:13,193  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:32:13,317  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:32:17,442  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:32:17,563  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:32:17,592  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:32:21,720  INFO [main] Neckermann:35 - text is correct in the destination field
+2023-07-21 12:32:32,093  INFO [main] Neckermann:51 - back arrow functionality is pass
+2023-07-21 12:32:33,481  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:32:33,604  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:32:38,847  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:32:38,944  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:32:38,977  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:32:43,096  INFO [main] Neckermann:35 - text is correct in the destination field
+2023-07-21 12:32:51,788  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:32:51,922  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:32:53,558  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:32:53,684  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:32:53,704  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:32:57,855  INFO [main] Neckermann:34 - text is correct in the destination field
+2023-07-21 12:32:59,945  INFO [main] Neckermann:43 - user is directedb to the individual blog page
+2023-07-21 12:33:01,166  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:33:01,292  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:33:02,423  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:33:02,537  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:33:02,568  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:33:06,708  INFO [main] Neckermann:34 - text is correct in the destination field
+2023-07-21 12:33:07,775  INFO [main] Neckermann:43 - user  is directed to the destination page hense test case pass
+2023-07-21 12:33:09,021  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:33:09,150  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:33:10,553  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:33:10,651  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:33:10,691  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:33:14,830  INFO [main] Neckermann:34 - text is correct in the destination field
+2023-07-21 12:33:15,915  INFO [main] Neckermann:40 - write text in the search box
+2023-07-21 12:33:16,965  INFO [main] Neckermann:44 - search button clicked
+2023-07-21 12:33:16,998  INFO [main] Neckermann:49 - Serach functionality works fine hence test case pass
+2023-07-21 12:33:18,274  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:33:18,394  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:33:26,743  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:33:26,844  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:33:26,896  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:33:31,066  INFO [main] Neckermann:34 - text is correct in the destination field
+2023-07-21 12:33:37,479  INFO [main] Neckermann:43 - Test case pass for the filters of the blog page
+2023-07-21 12:33:38,789  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:33:38,919  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:33:48,683  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:33:48,800  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:33:48,841  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:50:06,026  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:50:06,154  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:50:08,142  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:50:08,336  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:50:08,398  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:50:12,529  INFO [main] Neckermann:35 - text is correct in the destination field
+2023-07-21 12:50:14,656  INFO [main] Neckermann:44 - Newsletter component is visible on the individual blog page
+2023-07-21 12:50:14,720  INFO [main] Neckermann:49 - footer component is visible on the individual blog page
+2023-07-21 12:50:14,760  INFO [main] Neckermann:54 - Header component is visible on the individual blog page
+2023-07-21 12:50:14,814  INFO [main] Neckermann:59 - Header component is visible on the individual blog page
+2023-07-21 12:55:20,155  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 12:55:20,287  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 12:55:26,326  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 12:55:26,506  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 12:55:26,557  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 12:55:30,697  INFO [main] Neckermann:35 - text is correct in the destination field
+2023-07-21 12:55:32,851  INFO [main] Neckermann:44 - Newsletter component is visible on the individual blog page
+2023-07-21 12:55:32,898  INFO [main] Neckermann:49 - footer component is visible on the individual blog page
+2023-07-21 12:55:32,945  INFO [main] Neckermann:54 - Header component is visible on the individual blog page
+2023-07-21 12:55:32,992  INFO [main] Neckermann:59 - Popular blogs is visible on the individual blog page
+2023-07-21 12:55:33,039  INFO [main] Neckermann:65 - heading is visible on the individual blog page
+2023-07-21 13:10:09,039  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 13:10:09,170  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 13:10:12,907  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 13:10:13,058  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 13:10:13,090  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 13:10:17,237  INFO [main] Neckermann:90 - text is correct in the destination field
+2023-07-21 13:12:08,314  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 13:12:08,448  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 13:12:12,781  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 13:12:12,914  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 13:12:12,956  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 13:12:17,118  INFO [main] Neckermann:90 - text is correct in the destination field
+2023-07-21 14:02:09,391  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:02:09,524  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:02:15,125  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:02:15,295  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:02:15,328  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:02:19,493  INFO [main] Neckermann:90 - text is correct in the destination field
+2023-07-21 14:02:46,315  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:02:46,457  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:02:52,524  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:02:52,664  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:02:52,697  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:02:56,854  INFO [main] Neckermann:90 - text is correct in the destination field
+2023-07-21 14:03:36,311  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:03:36,439  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:03:42,291  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:03:42,459  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:03:42,510  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:03:46,650  INFO [main] Neckermann:90 - text is correct in the destination field
+2023-07-21 14:04:35,266  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:04:35,399  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:04:39,466  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:04:39,598  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:04:39,628  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:04:43,777  INFO [main] Neckermann:90 - text is correct in the destination field
+2023-07-21 14:13:06,875  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:13:07,010  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:13:11,848  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:13:12,021  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:13:12,069  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:23:32,160  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:23:32,301  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:23:43,391  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:23:43,582  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:23:43,638  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:23:45,748  INFO [main] Neckermann:23 - treanding holiday component is visible on the home page
+2023-07-21 14:39:02,847  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:39:02,976  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:39:06,683  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:39:06,799  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:39:06,831  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:39:08,894  INFO [main] Neckermann:42 - treanding holiday component is visible on the home page
+2023-07-21 14:42:37,224  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:42:37,356  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:42:39,139  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:42:39,430  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:42:39,477  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:42:41,521  INFO [main] Neckermann:42 - treanding holiday component is visible on the home page
+2023-07-21 14:43:15,795  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:43:15,929  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:43:25,993  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:43:26,184  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:43:26,228  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:43:28,343  INFO [main] Neckermann:42 - treanding holiday component is visible on the home page
+2023-07-21 14:43:38,752  INFO [main] Neckermann:50 - User is directed to the hotel
+2023-07-21 14:44:42,239  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:44:42,375  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:44:49,901  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:44:50,090  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:44:50,115  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:44:52,219  INFO [main] Neckermann:65 - treanding holiday component is visible on the home page
+2023-07-21 14:45:01,450  INFO [main] Neckermann:73 - User is directed to the hotel
+2023-07-21 14:45:02,677  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:45:02,798  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:45:04,595  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:45:04,720  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:45:04,748  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:52:16,778  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:52:16,905  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:52:20,050  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:52:20,203  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:52:20,251  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:52:22,314  INFO [main] Neckermann:65 - treanding holiday component is visible on the home page
+2023-07-21 14:52:26,449  INFO [main] Neckermann:73 - User is directed to the hotel
+2023-07-21 14:52:27,898  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:52:28,020  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:52:37,237  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:52:37,366  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:52:37,392  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:52:39,457  INFO [main] Neckermann:42 - treanding holiday component is visible on the home page
+2023-07-21 14:54:27,695  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:54:27,830  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:54:31,179  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:54:31,287  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:54:31,318  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:54:33,374  INFO [main] Neckermann:42 - treanding holiday component is visible on the home page
+2023-07-21 14:55:43,262  INFO [main] Neckermann:47 - Browser is opened
+2023-07-21 14:55:43,396  INFO [main] Neckermann:50 - Browser is maximized
+2023-07-21 14:55:51,700  INFO [main] Neckermann:53 - URL is opened
+2023-07-21 14:55:51,879  INFO [main] Neckermann:61 - cookie policy accepted
+2023-07-21 14:55:51,971  INFO [main] Neckermann:71 - Home page is open
+2023-07-21 14:55:54,053  INFO [main] Neckermann:42 - treanding holiday component is visible on the home page

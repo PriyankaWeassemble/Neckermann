@@ -1,5 +1,0 @@
-package com.Neckermann.POMClasses;
-
-public class IndividualBlogPOMClass {
-
-}

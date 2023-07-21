@@ -673,6 +673,79 @@ public class HomePOMClass {
 			}
 		}
 	}
+	
+	//****************************TREANDING HOLIDAYS**************************************//
+	
+			@FindBy(xpath = "(//a[text()='view now'])[2]")//for 1st hotel,
+			private WebElement viewnowbuttonforfirsthotel;
+
+			public void clickonviewnowbuttonforfirsthotel() {
+				viewnowbuttonforfirsthotel.click();
+
+			}
+			
+			@FindBy(xpath = "(//a[text()='view now'])[3]")//for 2nd next hotel,
+			private WebElement viewnowbuttonforsecondhotel;
+
+			public void clickonviewnowbuttonforsecondhotel() {
+				viewnowbuttonforsecondhotel.click();
+
+			}
+			
+			@FindBy(xpath = "(//a[text()='view now'])[28]")//for 29th hotel,previous
+			private WebElement viewnowbuttonforlasthotel;
+
+			public void clickonviewnowbuttonforlasthotel() {
+				viewnowbuttonforlasthotel.click();
+
+			}
+			
+			
+			@FindBy(xpath = "//section[@class='trendingHolidays_sectionContainer__aVmCF trendingHolidays_trending_holidays_section__UxUp2']")
+			private WebElement visibilityoftreandingholidayonhomepage;
+
+			public boolean visibilityoftreandingholidayonhomepage1() {
+				boolean y=visibilityoftreandingholidayonhomepage.isDisplayed();
+				return y;
+				
+
+			}
+	        //previous arrow
+			
+					@FindBy(xpath = "(//button[text()='Previous'])[4]")
+					private WebElement previousarrow;
+
+					public void clickonpreviousarrow() {
+						previousarrow.click();
+
+					}
+					
+					
+			//Next arrow
+					@FindBy(xpath = "(//button[text()='Next'])[4]")
+					private WebElement nextarrow;
+
+					public void clickonnextarrow() {
+						nextarrow.click();
+
+					}
+					
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	// *********************Search Widget************************//
 
