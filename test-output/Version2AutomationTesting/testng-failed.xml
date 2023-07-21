@@ -3,13 +3,27 @@
 <suite name="Failed suite [Version2AutomationTesting]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.Neckermann.TestClass.Verifywhether_user_should_clickon_yourguide_on_travelGuidePage_For_7_To_8_Destinations">
+      <class name="com.Neckermann.TestClass.Verify_the_Visibility_of_components_from_The_AllBlogPage">
         <methods>
           <include name="setUp"/>
-          <include name="Travel_guide_anotherbuttonclick_click" invocation-numbers="2"/>
+          <include name="tearDown"/>
+          <include name="ClickOn_the_seeallblogs_fromthe_homepage"/>
+        </methods>
+      </class> <!-- com.Neckermann.TestClass.Verify_the_Visibility_of_components_from_The_AllBlogPage -->
+      <class name="com.Neckermann.TestClass.Verify_The_Breadcrumb_Functionality_on_AllBlogPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="Verify_The_Breadcrumb_Functionality_on_AllBlogPage1"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Neckermann.TestClass.Verifywhether_user_should_clickon_yourguide_on_travelGuidePage_For_7_To_8_Destinations -->
+      </class> <!-- com.Neckermann.TestClass.Verify_The_Breadcrumb_Functionality_on_AllBlogPage -->
+      <class name="com.Neckermann.TestClass.Verify_whether_the_user_should_selectthe_forward_arrow_fromThe_pagination_on_the_AllBlogPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="Verify_whether_the_user_should_selectthe_forward_arrow_fromThe_pagination_on_the_AllBlogPage1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Neckermann.TestClass.Verify_whether_the_user_should_selectthe_forward_arrow_fromThe_pagination_on_the_AllBlogPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Version2AutomationTesting] -->
